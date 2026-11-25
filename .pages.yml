@@ -250,9 +250,11 @@ content:
       delete: false
     fields:
       - name: id
-        label: ID
-        type: string
+        label: ID (Auto-generated)
+        type: uuid
         required: true
+        options:
+          editable: false
       - name: date
         label: Date (YYYY-MM)
         type: string
