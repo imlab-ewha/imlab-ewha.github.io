@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/DesignedLayout.astro';
+import A from '../../components/A.astro';
+import Badge from '../../components/Badge.astro';
+import Bullets from '../../components/Bullets.astro';
+import Prose from '../../components/Prose.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import { getList, LABELS, matchesArea, u, type ResearchArea } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const research = await getList('research');
+  return research.map((area) => ({ params: { id: area.id }, props: { area } }));
+}
+
+const { area } = Astro.props as { area: ResearchArea };
+const projects = (await getList('projects')).filter((p) => matchesArea(area, p.text));
+const publications = (await getList('publications')).filter((p) => matchesArea(area, p.text));
+---
+<Layout title={area.title} section="research" parent>
+<header class="listing-heading topic-heading">
+  <div class="wrap topic-title-layout">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href={u('research/')}>Research Areas</a></nav>
+    <div class="topic-title-copy">
+      <h1>{area.title}</h1>
+      <p>{area.summary.replace(/\.$/, '')}</p>
+    </div>
+    <div class="topic-figure"><img class="area-illustration" src={u(area.illustration)} alt={area.illustration_alt} width="1536" height="1024" decoding="async" /></div>
+  </div>
+</header>
+<div class="wrap page-content topic-content">
+  <nav class="toc topic-nav" aria-label="On this page">
+    <a href="#overview">Overview</a>
+    <a href="#related-projects">Related Projects</a>
+    <a href="#related-publications">Related Publications</a>
+  </nav>
+  <div class="topic-sections">
+    <section id="overview" aria-labelledby="overview-heading">
+      <h2 id="overview-heading">Overview</h2>
+      <Prose text={area.description} />
+      <h3 class="topics-label">Research topics</h3>
+      <Bullets items={area.topics} class="research-topics" />
+    </section>
+    <section id="related-projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Related Projects</h2>
+      <Prose text="Projects and publications are linked by title and topic. These selections are under review." class="topic-note" />
+      {projects.length
+        ? <ul class="topic-projects">{projects.map((p) => (
+            <li><div class="meta"><Badge text={LABELS[p.status]} /> {p.affiliation && <Badge text={p.affiliation} />}</div><p><A href={`projects/${p.id}/`}>{p.text}</A></p></li>
+          ))}</ul>
+        : <p>No related projects listed</p>}
+    </section>
+    <section id="related-publications" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Related Publications</h2>
+      {publications.length ? <PublicationList publications={publications} linkToIndex /> : <p>No related publications listed</p>}
+    </section>
+  </div>
+</div>
+</Layout>

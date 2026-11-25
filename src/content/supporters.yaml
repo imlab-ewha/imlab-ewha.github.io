@@ -1,0 +1,37 @@
+# Organizations shown under "Supported by" on the home page.
+- id: ewha-womans-university
+  name: Ewha Womans University
+  image: /assets/images/supporter-01.png
+- id: seoul-women-s-university
+  name: Seoul Women's University
+  image: /assets/images/supporter-02.png
+- id: kyonggi-university
+  name: Kyonggi University
+  image: /assets/images/supporter-03.png
+- id: national-research-foundation-of-korea
+  name: National Research Foundation of Korea
+  image: /assets/images/supporter-04.png
+- id: korea-creative-content-agency
+  name: Korea Creative Content Agency
+  image: /assets/images/supporter-05.png
+- id: national-information-society-agency-nia
+  name: National Information Society Agency (NIA)
+  image: /assets/images/supporter-06.png
+- id: korea-data-agency-k-data
+  name: Korea Data Agency (K-DATA)
+  image: /assets/images/supporter-07.png
+- id: korea-productivity-center
+  name: Korea Productivity Center
+  image: /assets/images/supporter-08.png
+- id: wordvice
+  name: Wordvice
+  image: /assets/images/supporter-09.png
+- id: post-ai
+  name: Post AI
+  image: /assets/images/supporter-10.png
+- id: samsung-electro-mechanics
+  name: Samsung Electro-Mechanics
+  image: /assets/images/supporter-11.png
+- id: ai-m
+  name: ai.m
+  image: /assets/images/supporter-12.png

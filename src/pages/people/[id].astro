@@ -1,0 +1,70 @@
+---
+// Director profile (redesigned) and student / alumni profiles (prototype design).
+import DesignedLayout from '../../layouts/DesignedLayout.astro';
+import PrototypeLayout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import Bullets from '../../components/Bullets.astro';
+import DirectorRecords from '../../components/DirectorRecords.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import Portrait from '../../components/Portrait.astro';
+import Section from '../../components/Section.astro';
+import SourceLinks from '../../components/SourceLinks.astro';
+import { getContact, getPeople, LAB_INQUIRY_TEXT, u, type Person } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const people = await getPeople();
+  return people.map((person) => ({ params: { id: person.id }, props: { person } }));
+}
+
+const { person } = Astro.props as { person: Person };
+const contact = await getContact();
+const GROUP_TITLES: Record<string, string> = {
+  graduate: 'Graduate Student', 'alumni-graduate': 'Graduate Alumni', 'alumni-undergraduate': 'Undergraduate Alumni',
+};
+
+// Director page
+const introduction = person.profile.find((s) => !s.items.length && !s.links.length)?.title ?? '';
+let records = person.profile.filter((s) => s.items.length || s.links.length);
+if (!records.length) records = [{ title: 'Profile', items: person.details, links: [], item_links: [] }];
+
+// Student pages: split a publications section at its "Journal paper" / "Conference paper" markers.
+function publicationGroups(items: string[]) {
+  const groups: { heading?: string; items: string[] }[] = [{ items: [] }];
+  for (const item of items) {
+    if (['journal paper', 'conference paper'].includes(item.toLowerCase())) groups.push({ heading: item, items: [] });
+    else groups.at(-1)!.items.push(item);
+  }
+  return groups;
+}
+const sections = person.profile.filter((s) => !(s.title === 'Profile' && s.items.length === 1 && s.items[0] === person.email));
+const isPublications = (title: string) => ['publications', 'journal paper', 'conference paper', 'under review'].includes(title.toLowerCase());
+---
+{person.group === 'director' ? (
+<DesignedLayout title={person.name} section="director">
+<header class="listing-heading director-heading">
+  <div class="wrap">
+    <a class="directory-link" href={u('people/')}><span aria-hidden="true">←</span> People</a>
+    <div class="director-identity">
+      <Portrait src={person.image} alt={person.name} class="director-portrait" eager />
+      <div>
+        <p class="director-role">Director</p>
+        <h1>{person.name}</h1>
+        {introduction && <p class="director-intro">{introduction}</p>}
+      </div>
+    </div>
+  </div>
+</header>
+<div class="wrap page-content director-records">
+  {records.map((section) => (
+    <details class="director-section" open={['Contact Information', 'Education', 'Profile'].includes(section.title)}><summary><h2>{section.title}</h2></summary><DirectorRecords section={section} email={person.email} /></details>
+  ))}
+</div>
+</DesignedLayout>
+) : (
+<PrototypeLayout title={person.name} active="people" crumbs={[{ label: 'People', href: 'people/' }, { label: person.name }]}>
+<PageHeading title={person.name} intro={GROUP_TITLES[person.group]} />
+<div class="profile-grid"><aside class="profile-sidebar"><Portrait src={person.image} alt={person.name} class="portrait" />{person.email && <><p><A href={`mailto:${person.email}`}>{person.email}</A></p>{person.email === contact.email && <p>{LAB_INQUIRY_TEXT}</p>}</>}</aside><div class="profile-body"><Section title="Profile"><Bullets items={person.details} /></Section>{sections.map((s) => isPublications(s.title)
+  ? <Section title={s.title}>{publicationGroups(s.items).map((g) => <>{g.heading && <h3>{g.heading}</h3>}{g.items.length > 0 && <Bullets items={g.items} />}</>)}<p><A href="publications/">Browse all publications →</A></p></Section>
+  : <Section title={s.title}><Bullets items={s.items} /><SourceLinks links={s.links} /></Section>)}</div></div>
+</PrototypeLayout>
+)}

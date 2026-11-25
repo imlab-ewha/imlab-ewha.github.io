@@ -1,21 +1,14 @@
-_site
-.bundle
-.DS_store
-.idea
-.jekyll-cache
-.jekyll-metadata
-.ruby-version
-.sass-cache
-.tweet-cache
-.venv
-assets/libs/
-assets/rendercv/rendercv_output/*.typ
-al-folio-upgrade-report.md
+# Dependencies and build output
 node_modules/
-output/playwright/
-test-results/
-vendor
+dist/
+.astro/
 
-# Python bytecode from bin/ helper scripts
-__pycache__/
-*.pyc
+# Local files
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+
+# Caches left by the previous al-folio (Jekyll) site
+.jekyll-cache/
+.tweet-cache/

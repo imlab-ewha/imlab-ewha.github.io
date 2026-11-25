@@ -1,0 +1,1039 @@
+# Publications in display order.
+# category: journal | conference | patent-software | thesis | magazine-book
+# status: published | accepted | under-review | in-preparation
+- id: pub-a3c3bbfffa
+  category: journal
+  status: in-preparation
+  year: null
+  text: Hyeryun Park, Hyunjung Kim, and Yerim Choi*, UX for AI, in preparation for Behaviour & Information Technology (SCIE, JCR Q2).
+  links: []
+- id: pub-d764767a99
+  category: journal
+  status: in-preparation
+  year: null
+  text: Yeonbin Son and Yerim Choi*, DPM, in preparation (SCIE).
+  links: []
+- id: pub-e04072bb79
+  category: journal
+  status: in-preparation
+  year: null
+  text: Yeonbin Son, ..., and Yerim Choi*, "CRS for Fashion", in preparation (SCIE).
+  links: []
+- id: pub-debbc7ebac
+  category: journal
+  status: in-preparation
+  year: null
+  text: Hyeryun Park, Jiyoon Park (co-1st), and Yerim Choi*, "Storytelling Generation for Crowd Funding", in preparation (SCIE).
+  links: []
+- id: pub-288071ff18
+  category: journal
+  status: in-preparation
+  year: null
+  text: Yaeri Kim, Bohyun Choi, Gyulim Hahn, and Yerim Choi*, "Optimizing Conversational Recommendation Systems through Integrating RFM-Based User Consumption Patterns", in preparation for Expert Systems with Applications (SCIE).
+  links: []
+- id: pub-49ff13567f
+  category: journal
+  status: in-preparation
+  year: null
+  text: Hyeryun Park, Hyunjung Kim, and Yerim Choi*, GMP3-2, in preparation (SCIE)(NRF신진).
+  links: []
+- id: pub-c9ab93728c
+  category: journal
+  status: in-preparation
+  year: null
+  text: Yeonbin Son, Gyuri Kim, Gyulim Hahn, and Yerim Choi*, Information Practices of Social Simulation Agents, in preparation (SCIE)(NRF신진).
+  links: []
+- id: pub-7d99111f5d
+  category: conference
+  status: in-preparation
+  year: null
+  text: Bohyun Choi, Gyuri Kim, and Yerim Choi*, "Addressing Bias in Social Simulation Agents" in preparation (conf).
+  links: []
+- id: pub-74a9311122
+  category: journal
+  status: in-preparation
+  year: null
+  text: Bohyun Choi, Hyunjung Kim, and Yerim Choi*, "Persona Attributes for Social Simulation Agents" in preparation (SCIE).
+  links: []
+- id: pub-12b8a1c99a
+  category: journal
+  status: in-preparation
+  year: null
+  text: Joongho Lee, Bohyun Choi, and Yerim Choi*, "Bias taxonomy for LLM based opinion simulation", in preparation (SCIE).
+  links: []
+- id: pub-df1d8a3b17
+  category: journal
+  status: in-preparation
+  year: null
+  text: Hyeryun Park and Yerim Choi*, GMP3-1, in preparation (SCIE)(NRF신진).
+  links: []
+- id: pub-3cd12ae400
+  category: journal
+  status: in-preparation
+  year: null
+  text: Yeonbin Son, Gyuri Kim, and Yerim Choi*, Causality inference for manufacturing, in preparation (SCIE) (NIA-Industry).
+  links: []
+- id: pub-1c9cb87f4e
+  category: conference
+  status: in-preparation
+  year: 2026
+  text: 장지민, 김현정, 최예림*, HS code classification, in preparation for 2026 한국디지털산업학회 추계학술대회 (conf).
+  links: []
+- id: pub-d10f8b84e0
+  category: conference
+  status: in-preparation
+  year: 2026
+  text: 김규리, 최예림*, routing, in preparation for 2026 한국디지털산업학회 추계학술대회 (conf).
+  links: []
+- id: pub-3dbdcebf36
+  category: conference
+  status: under-review
+  year: 2026
+  text: 손연빈, 김규리, 조인호, 손기준, 최예림*, "다공정 포토마스크 제조를 위한 다중 에이전트 기반 결함 원인 추론 방법론", submitted to 2026 한국디지털산업학회 추계학술대회 (conf)(NIA-Industry).
+  links: []
+- id: pub-1b43eb70f5
+  category: conference
+  status: under-review
+  year: 2026
+  text: '이중호, 최예림*, 최보현, "AI 페르소나의 ‘편향’은 무엇에 대한 편향인가: LLM 여론 시뮬레이션과 사람 응답 비교의 준거와 대안", submitted to 2026 한국사회학회 후기사회학대회 (conf).'
+  links: []
+- id: pub-73329ba2bc
+  category: journal
+  status: under-review
+  year: null
+  text: Hyeryun Park, Hannah Lee, and Yerim Choi*, "An Iterative VLM Evaluate-and-Refine Framework for Fashion Image Generation", submitted to Expert Systems with Applications (SCIE)(NRF신진).
+  links: []
+- id: pub-3cd5650335
+  category: journal
+  status: under-review
+  year: null
+  text: Yeonbin Son, Jooyong Shim, and Yerim Choi*, "Multi-View Clustering Based Facility Failure Categorization Method Considering Heterogeneous Manufacturing Dataset", submitted to Reliability Engineering & System Safety (SCIE, JCR Q1)(EWHA2025).
+  links: []
+- id: pub-d2dc61f5a1
+  category: journal
+  status: under-review
+  year: null
+  text: Hyosun An, Hyeryun Park, Minjung Park, and Yerim Choi*, "Integration of Large Language Models in Fashion Storytelling for Crowdfunding Campaigns", submitted to Fashion and Textiles (SCIE, JCR Q1)(FashionLLM).
+  links: []
+- id: pub-4820d79969
+  category: journal
+  status: under-review
+  year: null
+  text: 'Yeonbin Son, Jonghyuk Park, Jonghun Park, and Yerim Choi*, "MVStyle: Multi-Modal Variational Inference for Fashion Style Classification", submitted to Information Processing & Management (SCIE, JCR Q1).'
+  links: []
+- id: pub-ef60de347f
+  category: patent-software
+  status: under-review
+  year: 2025
+  text: 최예림, 한규림, 박지윤, "인공지능 기반 이커머스 상세페이지 자동 생성 방법 및 장치", submitted (Domestic Patent, 10-2025-0190429, 2025.12.04) (AIX).
+  links: []
+- id: pub-df56fedfc4
+  category: patent-software
+  status: under-review
+  year: 2025
+  text: 최예림, 최보현, "고스트 마네킹 이미지를 생성하는 전자 장치, 이의 동작 방법과 기록매체", submitted (Domestic Patent, 10-2025-0118454, 2025.08.25) (AIX).
+  links: []
+- id: pub-d93b938dd0
+  category: patent-software
+  status: under-review
+  year: null
+  text: 최예림, 김수지, 김세연, "거대언어모델과 지식그래프를 활용한 고객의 동적 및 정적 행위를 동시에 반영하는 대화형 추천 시스템 및 방법", submitted (Domestic Patent).
+  links: []
+- id: pub-be71e37a83
+  category: journal
+  status: accepted
+  year: null
+  text: Bohyun Choi, Yeonbin Son (co-1st), and Yerim Choi*, "An omnichannel strategy development framework leveraging customer opinion divergence using large language models and explainable AI", accepted for publication in Scientific Reports (SCIE, JCR Q1, 15%)(NRF신진).
+  links: []
+- id: pub-20a407869b
+  category: journal
+  status: published
+  year: 2026
+  text: Hyeryun Park, Bohyun Choi, and Yerim Choi*, "A VLM-based Framework for Evaluating Garment Consistency in AI-Generated Images Based on DeLong’s Theory", Fashion and Textile, vol. 13, no. 26, 2026.06.11 (SCIE, JCR Q1)(NRF신진).
+  links: []
+- id: pub-26f1c58aa0
+  category: journal
+  status: published
+  year: 2026
+  text: Yeonbin Son, Jinhyun Bang, Jonghyuk Park, Jonghun Park, and Yerim Choi*, "Enhancing Fashion Style Classification by Capturing Local Details", Expert Systems with Applications, vol. 306, 2026.04.15 (SCIE, JCR Q1, 7%).
+  links: []
+- id: pub-5825920339
+  category: journal
+  status: published
+  year: 2025
+  text: 'Hyeryun Park, Suji Kim, Yerim Choi*, and Hyosun An*, "Application of the FEA Consumer Needs Model in E-Commerce: a Conversational Recommendation System for Fashion Products", Fashion and Textiles, vol. 12, no. 24, 2025.08 (SCIE, JCR Q1)(Fashion2023).'
+  links: []
+- id: pub-28a7e1d7e8
+  category: journal
+  status: published
+  year: 2025
+  text: Yeonbin Son, Youngeun Kim, and Yerim Choi*, "Data Driven Policy-Making Framework Utilizing TOWS Analysis", IEEE Access, vol. 13, 2025.05 (SCIE, JCR Q2)(AIX).
+  links: []
+- id: pub-c05ab82254
+  category: journal
+  status: published
+  year: 2024
+  text: Hyegeun Min, Yeonbin Son (co-1st), and Yerim Choi*, "Determining Optimal Assembly Condition for Lens Module Production by Combining Genetic Algorithm and C-BLSTM", Processes, vol. 12, no. 3, 2024.02 (SCIE)(SWU2021).
+  links: []
+- id: pub-25156614fc
+  category: journal
+  status: published
+  year: 2023
+  text: Hyosun An, Kyo Young Lee, Yerim Choi, and Minjung Park*, "Conceptual Framework of Hybrid Style in Fashion Image Datasets for Machine Learning", Fashion and Textiles, vol. 10, no. 18, 2023.05 (SCIE).
+  links: []
+- id: pub-aef8543373
+  category: journal
+  status: published
+  year: 2021
+  text: 'Hyosun An, Sunghoon Kim, Yerim Choi*, "Sportive Fashion Trend Reports: A Hybrid Style Analysis Based on Deep Learning Techniques", Sustainability, vol. 13, no. 17, 2021.08 (SSCI, SCIE)'
+  links: []
+- id: pub-dbf2879758
+  category: journal
+  status: published
+  year: 2021
+  text: Jonghyuk Park, Eunyoung Choi, and Yerim Choi*, "Real-World Failure Prevention Framework for Manufacturing Facilities Using Unstructured Text Data", Processes, vol. 9, no. 4, 2021.04 (SCIE)(NRF2021, SWU2020)(ai.m).
+  links: []
+- id: pub-16132a00b3
+  category: journal
+  status: published
+  year: 2021
+  text: Jonghyuk Park, Jonghun Park, Dongmin Shin, and Yerim Choi*, "A BCI Based Alerting System for Attention Recovery of UAV Operators", Sensors, vol. 21, no. 7, 2021.04 (SCIE)(NRF2021, SWU2020)(ai.m).
+  links: []
+- id: pub-f6f3c72a61
+  category: journal
+  status: published
+  year: 2020
+  text: Jaeseok Huh, Jonghun Park, Dongmin Shin, and Yerim Choi*, "A Behavior Optimization Method for Unmanned Combat Aerial Vehicles Using Matrix Factorization", IEEE Access, vol. 8, no. 1, 2020.05 (SCIE)(GRRC2019).
+  links: []
+- id: pub-4563e3dab7
+  category: journal
+  status: published
+  year: 2020
+  text: Yeonbin Son and Yerim Choi*, "Improving Matrix Factorization Based Expert Recommendation for Manuscript Editing Services by Refining User Opinions with Binary Ratings", Applied Sciences, vol. 10, no. 10, 2020.05 (SCIE)(KGU2017B).
+  links: []
+- id: pub-43643355f5
+  category: journal
+  status: published
+  year: 2019
+  text: Jaeseok Huh, Jonghun Park, Dongmin Shin, and Yerim Choi*, "A Hierarchical SVM Based Behavior Inference of Human Operators Using a Hybrid Sequence Kernel", Sustainability, vol. 11, no. 18, 2019.09 (SSCI)(GRRC2019).
+  links: []
+- id: pub-9df1e52958
+  category: journal
+  status: published
+  year: 2018
+  text: 'Hyunlim Yang, Tai-Woo Chang, and Yerim Choi, "Exploring the research trend of smart factory with topic modeling", Sustainability, vol. 10, no. 8, 2018.08 (SSCI, SCIE, 5-IF : 2.177 )(GRRC2018).'
+  links: []
+- id: pub-25b688b032
+  category: journal
+  status: published
+  year: 2017
+  text: 'Yerim Choi, Jonghun Park, and Dongmin Shin*, "A semi-supervised inattention detection method using biological signal", Annals of Operations Research, vol. 258, no. 1, pp. 59-78, 2017.11 (SCI, 5-IF : 1.943).'
+  links: []
+- id: pub-bba18f0eae
+  category: journal
+  status: published
+  year: 2017
+  text: 'Yerim Choi, Yumi Cheon, Lin Wang, and Kwanho Kim*, "A Biological Signal-Based Stress Monitoring Framework for Children Using Wearable Devices", Sensors, vol. 17, no. 9, 2017.08 (SCIE, 5-IF : 3.014)(NRF2017).'
+  links: []
+- id: pub-b074eae9b2
+  category: journal
+  status: published
+  year: 2016
+  text: 'Yerim Choi*, Yoonjung Kim, Solee Kim, Kyuyon Park, and Jonghun Park, "An On-Device Gender Prediction Method for Mobile Users Using Representative Wordsets", Expert Systems with Applications, vol. 64, pp. 423-433, 2016.12 (SCIE, 5-IF : 3.711).'
+  links: []
+- id: pub-41567ff54b
+  category: journal
+  status: published
+  year: 2014
+  text: 'Kwanho Kim, Yerim Choi, and Jonghun Park*, "A Conditional Feature Utilization Approach to Itemset Retrieval in Online Shopping Services", Journal of Electronic Commerce Research, vol. 15, no. 4, pp.317-338, 2014.11 (SSCI, 5-IF : 2.851).'
+  links: []
+- id: pub-eb08a7237b
+  category: journal
+  status: published
+  year: 2014
+  text: 'Yerim Choi, Namyeon Kwon, Seungjun Lee, Yongwook Shin, Chuh Yeop Ryo, Jonghun Park, and Dongmin Shin*, "Hypo-Vigilance Detection for UCAV Operators Based on a Hidden Markov Model", Computational and Mathematical Methods in Medicine, vol. 2014, pp. 1-13, 2014.05 (SCIE, 5-IF : 1.506).'
+  links: []
+- id: pub-30debb901a
+  category: journal
+  status: published
+  year: 2014
+  text: Kwanho Kim, Beom-Suk Chung, Yerim Choi, Sungjun Lee, Jae-Yoon Jung*, and Jonghun Park, " Language Independent Semantic Pattern Kernels for Short-text Classification", Expert Systems with Applications, vol. 41, no. 2, pp. 735-743, 2014.02 (SCIE).
+  links: []
+- id: pub-dae04aca46
+  category: journal
+  status: published
+  year: 2013
+  text: 'Kwanho Kim, Yerim Choi, and Jonghun Park*, "Pricing Fraud Detection in Online Shopping Malls Using a Finite Mixture Model", Electronic Commerce Research and Applications, vol.12, no. 3, pp. 195-207, 2013.06 (SSCI, 5-IF : 3.707).'
+  links: []
+- id: pub-4f7264e096
+  category: journal
+  status: published
+  year: 2026
+  text: (invited) 김규리, 한규림, 최예림*, "이커머스 상품 상세페이지를 위한 조합 최적화 기반 설명-이미지 매칭 방법론", 한국디지털산업학회지, vol. 31, no. 3, 2026.08 (KCI)(FashionLLM).
+  links: []
+- id: pub-a113dd7d54
+  category: journal
+  status: published
+  year: 2026
+  text: (invited) 김현정, 한규림, 최예림*, "패션 이커머스 산업에서 생성형 AI 기반 콘텐츠 제작 서비스의 사용성 테스트 프레임워크 연구", 한국디지털산업학회지, vol. 31, no. 2, 2026.05 (KCI)(FashionLLM).
+  links: []
+- id: pub-13e630d603
+  category: journal
+  status: published
+  year: 2026
+  text: (invited) 최보현, 한규림, 박지윤, 최예림*, "내재적 및 외재적 제품 특성에 대한 사용자 선호 반영을 통한 대화형 추천 개선", 정보과학회 컴퓨팅의 실제 논문지, vol. 32, no. 1, 2026.01 (KCI)(Fashion2023).
+  links: []
+- id: pub-1184de3ca1
+  category: journal
+  status: published
+  year: 2026
+  text: 심주용, 박지윤, 최예림*, "인공지능 기반 의류 온라인 쇼핑몰 상세페이지 생성 자동화 프레임워크 제안", 정보처리학회 논문지(KIPS Transactions on Computer and Communication Systems), vol. 15, no. 1, 2026.01 (KCI)(Fashion2023).
+  links: []
+- id: pub-b525bf2896
+  category: journal
+  status: published
+  year: 2024
+  text: (invited) 박혜련, 최예림, 안효선*, "메타버스 플랫폼 간 상호연동을 위한 가상의류의 디자인 요소와 설계 방식 연구", 패션비즈니스, vol. 28, no. 5, 2024.11 (KCI).
+  links: []
+- id: pub-32eb690a24
+  category: journal
+  status: published
+  year: 2023
+  text: (invited) 안효선, 김성훈, 최예림*, "챗봇 기반의 개인화 패션 추천 서비스 향상을 위한 사용자-제품 속성 제안", 패션비즈니스, vol. 27, no. 3, pp. 50-62, 2023.07 (KCI).
+  links: []
+- id: pub-79383e4070
+  category: journal
+  status: published
+  year: 2021
+  text: 손연빈, 김솔하, 최예림*, "논문 및 특허 기반의 ICT 동향 분석 연구", 한국융합학회논문지, vol. 12, no. 12, 2021.12 (KCI)(SWUS2021)
+  links: []
+- id: pub-a60e3bb560
+  category: journal
+  status: published
+  year: 2021
+  text: 김성훈, 최예림, 박종혁*, "전이학습과 그래프 합성곱 신경망 기반의 다중 패션 스타일 인식", 한국전자거래학회지, vol. 26, no. 1, 2021.02 (KCI)(NRF2021).
+  links: []
+- id: pub-1b19ed91e2
+  category: journal
+  status: published
+  year: 2021
+  text: 김성훈, 박종혁, 최예림*, "지능형 교통 시스템을 위한 Graph Neural Networks 기반 교통 속도 예측", 한국ITS학회 논문지, vol. 20, no. 1, 2021.02 (KCI)(NRF2020).
+  links: []
+- id: pub-9b6b9e1e7c
+  category: journal
+  status: published
+  year: 2020
+  text: (invited) 손연빈, 장태우, 최예림*, "Dessert Ateliers Recommendation Methods for Dessert E-Commerce Services", 인터넷정보학회논문지, vol. 21, no. 1, pp. 111-117, 2020.02 (KCI)(YB_KGUGrant2).
+  links: []
+- id: pub-c1c7615c4b
+  category: journal
+  status: published
+  year: 2020
+  text: 최은영, 김예은, 우창완, 최예림*, "논문 및 특허 데이터를 활용한 자연어 처리 기반 ICT 동향 분석 연구", 정보기술아키텍처 연구, vol. 17, no. 2, 2020.01 (KCI) (GRRC).
+  links: []
+- id: pub-311f01885a
+  category: journal
+  status: published
+  year: 2019
+  text: (최우수논문상) 김영선, 이용조, 최예림, 김현수*, "머신러닝 기반의 폐가전제품 무상방문수거 서비스 수거시간 수준 예측 방법론", 한국SCM학회지, vol. 19, no. 2, 2019.10 (KCI).
+  links: []
+- id: pub-3404f5d106
+  category: journal
+  status: published
+  year: 2019
+  text: (invited) 손연빈, 장태우, 최예림*, "연구자의 논문 게재 이력을 고려한 저널 결정 요인별 중요도 학습 기반의 저널 추천 방법론", 인터넷정보학회논문지, vol. 20, no. 4, 2019.08 (KCI)(YB_KGUGrant1).
+  links: []
+- id: pub-2e14570d2e
+  category: journal
+  status: published
+  year: 2018
+  text: (invited) 노영훈, 최은영, 최예림*, "설비 오류 유형 구조화를 위한 인공신경망 기반 구절 네트워크 구축 방법", 인터넷정보학회논문지, vol. 19, no. 6, pp. 21-29, 2018.12 (KCI)(GRRC2018).
+  links: []
+- id: pub-795009e09a
+  category: journal
+  status: published
+  year: 2018
+  text: (invited) 손연빈, 안현태, 최예림*, "문서 중요도를 고려한 토픽 기반의 논문 교정자 매칭 방법론", 인터넷정보학회논문지, vol. 19, no. 4, pp.27-33, 2018.08 (KCI)(GRRC2018).
+  links: []
+- id: pub-236eb4a2c7
+  category: journal
+  status: published
+  year: 2018
+  text: 윤준서, 안현태, 최예림*, "스마트제조를 위한 머신러닝 기반의 설비 오류 발생 패턴 도출 프레임워크", 한국전자거래학회지, 23권 2호, pp. 97-110, 2018.05 (KCI)(GRRC2017).
+  links: []
+- id: pub-5c75429dd9
+  category: journal
+  status: published
+  year: 2017
+  text: 김선아, 김정원, 원동연, 최예림*, 무슬림 관광객 증대를 위한 머신러닝 기반의 할랄푸드 분류 프레임워크, 정보시스템연구, 26권 3호, pp. 273-293, 2017.09 (KCI)(GRRC2017).
+  links: []
+- id: pub-5ed760c98f
+  category: journal
+  status: published
+  year: 2016
+  text: 최예림*, 신동민, 박종헌, "무인전투기의 최적 행위 도출을 위한 사례 기반 추론 기법", 정보기술아키텍처연구, 13권 1호, pp. 161-168, 2016.03 (KCI).
+  links: []
+- id: pub-e0842d1314
+  category: journal
+  status: published
+  year: 2016
+  text: 최예림*, 박규연, 김소이, 박종헌, "모바일 사용자의 성별 예측을 위한 식별 및 인기 단어 집합 기반 2단계 기기 내 분석", 한국전자거래학회지, 21권 1호, pp. 65-77, 2016.02 (KCI).
+  links: []
+- id: pub-6e06456bd4
+  category: journal
+  status: published
+  year: 2016
+  text: 김윤정, 최예림*, 김소이, 박규연, 박종헌, "스마트 기기의 멀티 모달 로그 데이터를 이용한 사용자 성별 예측 기법 연구", 한국전자거래학회지, 21권 1호, pp. 147-163, 2016.02 (KCI).
+  links: []
+- id: pub-0d3ce8b8ac
+  category: journal
+  status: published
+  year: 2015
+  text: 최예림*, 김소이, 박규연, 박종헌, "문서 기반 성별 예측을 위한 요인 추출 기법 및 한글 문서에의 적용 연구", Entrue Journal of Information Technology, 14권 3호, pp. 85-99, 2015.12 (KCI).
+  links: []
+- id: pub-8593fee0f5
+  category: journal
+  status: published
+  year: 2015
+  text: 김소이, 최예림*, 김윤정, 박규연, 박종헌, "특징적 단어 및 이모티콘 집합을 활용한 모바일 기기 내 성별 예측 프레임워크", 정보과학회 컴퓨팅의 실제 논문지, 21권 11호, pp. 733-738, 2015.11 (KCI).
+  links: []
+- id: pub-2dd5ed13a9
+  category: journal
+  status: published
+  year: 2015
+  text: 최예림*, 박종헌, 신동완, "모바일 사용자의 잠재 관심 추론을 위한 앙상블 기법", 정보과학회 컴퓨팅의 실제 논문지, 21권 11호, pp. 706-712, 2015.11 (KCI).
+  links: []
+- id: pub-ca12d3f99d
+  category: journal
+  status: published
+  year: 2015
+  text: 최예림*, 전승욱, 박종헌, 신동민, "dPCA-HMM을 이용한 전투기 조종사 모델링 연구", 한국항공우주학회지, 43권 1호, pp. 23-32, 2015.01 (KCI).
+  links: []
+- id: pub-fb0340bf30
+  category: journal
+  status: published
+  year: 2014
+  text: 최예림*, 전승욱, 지철규, 박종헌, 신동민, "혼합 시퀀스 커널을 이용한 조종사의 비동적 행위 모델링", 한국군사과학기술학회지, 17권 6호, pp. 773-785, 2014.12 (KCI).
+  links: []
+- id: pub-98b2ab0213
+  category: journal
+  status: published
+  year: 2013
+  text: 최예림, 권남연, 윤주식, 박종헌, 이호근, 김용덕, 김성호, 신동민*, "BCI 기반 무인기 조종사 집중도 유지 지상 통제 프레임워크", Entrue Journal of Information Technology, 12권 1호, pp. 101-115, 2013.04 (KCI).
+  links: []
+- id: pub-aa6ad5eccf
+  category: conference
+  status: published
+  year: 2026
+  text: 손기준, 한재안, 양준석, 최보현, 김규리, 박지윤, 김현정, 한규림, 최예림, "LLM 기반 사회 시뮬레이션을 위한 페르소나 속성 분류와 질의 맥락별 중요도 분석", 한국언론학회 2026 가을철 정기학술대회, 2026.10.17 (oral).
+  links: []
+- id: pub-3cabbef137
+  category: conference
+  status: published
+  year: 2026
+  text: 최보현, 김규리, 박지윤, 최예림, "LLM 기반 여론 시뮬레이션의 편향 분석 및 완화", 한국언론학회 2026 가을철 정기학술대회, 2026.10.17 (oral).
+  links: []
+- id: pub-58e33616b1
+  category: conference
+  status: published
+  year: 2026
+  text: 한규림, 김현정, 박지윤, 김규리, 최보현, 성민영, 장채린, 조인호, 최예림*, "사회 시뮬레이션을 위한 LLM 기반 페르소나 에이전트의 외부 정보 실천 방식 비교", 2026 한국컴퓨터종합학술대회(KCC2026), 2026.06.24 (poster)(NRF신진).
+  links: []
+- id: pub-4179b560c7
+  category: conference
+  status: published
+  year: 2026
+  text: 김현정, 박지윤, 최예림*, "사용성 평가를 위한 거대 언어 모델 전문가 에이전트 기반 요인별 가중치 산출 방법론", 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회, 2026.04.25 (oral)(NRF신진).
+  links: []
+- id: pub-65dd1f2b9b
+  category: conference
+  status: published
+  year: 2026
+  text: 장채린, 한규림, 최예림*, "다중 요소를 고려한 패션 이커머스 대표 이미지 자동 선정 방법", 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회, 2026.04.25 (poster)(NRF신진).
+  links: []
+- id: pub-d7fc4b8fba
+  category: conference
+  status: published
+  year: 2026
+  text: (우수논문상) 김규리, 최보현, 최예림*, "조합 전체의 의미적 정합성 및 시각적 다양성을 고려한 상품 상세페이지 내 설명 문단-이미지 매칭 방법론", 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회, 2026.04.25 (poster)(NRF신진).
+  links: []
+- id: pub-08e18281a6
+  category: conference
+  status: published
+  year: 2025
+  text: (우수논문상) Hyunjung Kim, Gyulim Hahn, and Yerim Choi*, "패션 이커머스 AI 서비스를 위한 ISO/IEC 9126 기반의 사용성 평가체계 연구", 2025 전자거래학회 추계학술대회, 2025.11.29 (oral)(Fashion2023).
+  links: []
+- id: pub-6aeaaa06b6
+  category: conference
+  status: published
+  year: 2025
+  text: 'Yeonbin Son, Bohyun Choi, Jiyoon Park, Yerim Choi, and Matthew Bolton*, "HIVE: Human-in-the-Loop Framework for Explainable Recommender Systems with Veracity-Based Human Feedback", Human-Centric AI Workshop at CIKM2025, 2025.11.14 (poster)(EWHA2025).'
+  links: []
+- id: pub-c9cc081c33
+  category: conference
+  status: published
+  year: 2025
+  text: Jiyoon Park, Gyulim Han, Minyoung Park, Bohyun Choi, and Yerim Choi*, "시각적 일관성 및 전문가적 특성 기반 이커머스 상품 이미지 정렬 프레임워크", 2025 대한산업공학회 추계학술대회, 2025.11.06 (poster)(Fashion2023).
+  links: []
+- id: pub-0b954d3586
+  category: conference
+  status: published
+  year: 2025
+  text: 최보현, 박지윤, 최예림, 안효선*, "패션 크라우드펀딩을 위한 LLM 기반 스토리텔링 생성 에이전트 연구", 2025년도 한국의류학회 추계학술대회, 2025.10.25 (poster)(FashionLLM).
+  links: []
+- id: pub-202a451da3
+  category: conference
+  status: published
+  year: 2025
+  text: (우수논문상) Bohyun Choi, Gyulim Hahn, Jiyoon Park, and Yerim Choi*, "내재적 및 외재적 제품 특성에 대한 사용자 선호 반영을 통한 대화형 추천 개선", 2025 한국컴퓨터종합학술대회(KCC 2025), 2025.07.04 (oral)(EWHA2025).
+  links: []
+- id: pub-0ab40cc3e8
+  category: conference
+  status: published
+  year: 2025
+  text: 김윤아, 김유빈, 유지은, 이지수, 최주현, 최예림*, "인구감소 지역의 관계인구 활성화를 위한 텍스트 데이터 기반 인플루언서 매칭 시스템", 한국통신학회, 2025
+  links: []
+- id: pub-cfb25a0d1a
+  category: conference
+  status: published
+  year: 2025
+  text: 문예린, 김수아, 박서진, 이나경, 이지현, 이채은, 최예림*, "트리 기반 머신러닝 기법을 활용한 포트홀 발생 주요 요인 분석", 한국통신학회, 2025
+  links: []
+- id: pub-4001e36933
+  category: conference
+  status: published
+  year: 2025
+  text: 김규리, 김세인, 오서연, 조유라, 최다예, 최덕우, 최예림*, "Grad-CAM++와 Activation Map 을 활용한 한국인 여성 중심 딥페이크 탐지 특징 분석", 한국HCI학회, 2025
+  links: []
+- id: pub-91ef9387ca
+  category: conference
+  status: published
+  year: 2024
+  text: (우수논문상) 임다윤, 권보경, 김경은, 김태희, 박주연, 오성연, 최예림*, "LLM 기반 기사 헤드라인 선정성 평가 및 생성 방법론", ICT플랫폼학회 2024 추계학술대회, 2024.12.18
+  links: []
+- id: pub-e275b42fb5
+  category: conference
+  status: published
+  year: 2024
+  text: Hyosun An, Dain Ji, Suji Kim, Seyeon Kim, Yerim Choi, and Minjung Park*, "Integration of Large Language Models in Fashion Storytelling for Crowdfunding Campaigns", ITAA 2024 Annual Conference, Long Beach, CA, 2024.11.
+  links: []
+- id: pub-28d39bdaf2
+  category: conference
+  status: published
+  year: 2024
+  text: (우수발표논문상) 안효선, 김수지, 박혜련, 김세연, 최보현, 박민정, 최예림*, "생성형 대규모 언어 모델을 이용한크라우드 펀딩 패션 스토리텔링 요소 추출 연구", 한국의류산업학회 2024년 추계학술대회, 2024.11.03.
+  links: []
+- id: pub-30f28e2d78
+  category: conference
+  status: published
+  year: 2024
+  text: 조아영, 김수지, 한규림, 김민정, 김서연, 장영빈, 최예림*, "Segment Anything Model을 이용한 딸기 생육단계 분류 모델 개발", 한국지능정보시스템학회 2024년 추계 학술대회, 2024.11.02.
+  links: []
+- id: pub-782eb34df3
+  category: conference
+  status: published
+  year: 2024
+  text: 최보현, 김고은, 문미란, 박나예, 정은지, 채규현, 최예림*, "피처 맞춤 모델링을 통한 인기 유튜브 채널 특성 유형화 프레임워크", 2024 HCI KOREA, 2024.01.24.
+  links: []
+- id: pub-a52b0938f1
+  category: conference
+  status: published
+  year: 2023
+  text: 지다인, 김서윤, 김현민, 이정미, 장진영, 조유담, 최예림*, "NSGA-II를 활용한 인테리어 상품 최적 조합 추천 프레임워크", 한국정보과학회 UCWIT2023 학술 심포지움, 2023.11.24.
+  links: []
+- id: pub-badf6892a7
+  category: conference
+  status: published
+  year: 2023
+  text: '(우수논문상) 김서연, 김송연, 한규림, 조인아, 경재영, 이은빈, 최예림*, "스마트팜 딸기 생산량 예측 모델: 시계열 데이터의 변수 선정을 중심으로", 2023 한국정보기술학회 추계종합학술대회, 2023.11.23.'
+  links: []
+- id: pub-210a3c38bb
+  category: conference
+  status: published
+  year: 2024
+  text: 'Hyosun An, Sunghoon Kim, and Yerim Choi*, "Application of FEA consumer needs model in real practice, e-commerce: chatbot for fashion product recommendation", International Textile and Apparel Association Annual Conference, 2024.11.8-11, Maryland, United States.'
+  links: []
+- id: pub-4fa173c681
+  category: conference
+  status: published
+  year: 2023
+  text: (우수논문상) 안효선*, 박혜련, 최예림, 박민정, “메타버스와 실물 의류 속성 표준화를 위한 사례조사 -아바타의 디자인 표현을 중심으로-”, 2023 한국패션비즈니스학회 추계학술대회, 2023.10.28, Seoul, Korea
+  links: []
+- id: pub-ba5c9573cb
+  category: conference
+  status: published
+  year: 2023
+  text: (우수논문상) 안효선, 김성훈, 최예림*, " 챗봇 기반 개인화 패션 추천을 위한 사용자-제품 속성 분류체계 연구", 2023 한국패션비즈니스학회 춘계학술대회, 2023.04.22.
+  links: []
+- id: pub-03e7960a3f
+  category: conference
+  status: published
+  year: 2022
+  text: (우수논문상) 강예원, 최예림*, 정민교, “소비자의 옴니채널 경험 개선을 위한 리뷰 데이터 기반 요인 분석 프레임워크“, 2022 한국정보기술학회 추계 종합학술대회, 2022.12.03, Jeju, Korea.
+  links: []
+- id: pub-ba43c33be3
+  category: conference
+  status: published
+  year: 2022
+  text: 김솔하, 김영은, 최예림*, "토픽 모델링과 감성 분석 활용한 포스트 코로나 시대 정책 연구 방향성 분석", 한국데이터마이닝학회 추계 학술대회, 2022.11.16, Seoul, Korea.
+  links: []
+- id: pub-2ffd44e4e6
+  category: conference
+  status: published
+  year: 2022
+  text: Solha Kim, Yeonbin Son, Sunghoon Kim, Hyewon Seo, Yewon Kang, and Yerim Choi*, "Dynamic Learning of User Preference Based on Path-level Feedback for Knowledge Graph-based Recommender Systems", Informs Annual Meeting 2022, 2022.10.17, Indianapolis, Indiana (NRF2022).
+  links: []
+- id: pub-c3f310554e
+  category: conference
+  status: published
+  year: 2022
+  text: '김솔하, 박혜은, 강예원, 최예림*, "이커머스 기업의 옴니채널 구축 전략 프레임워크 연구: 올리브영 사례를 중심으로", 한국데이터마이닝학회 2022 하계 학술대회, 2022.08.26, Busan, Korea (NRF2022).'
+  links: []
+- id: pub-d8069bb3ed
+  category: conference
+  status: published
+  year: 2022
+  text: 김성훈, 손연빈, 김솔하, 강예원, 서혜원, 김민정, 최예림*, "대화형 추천 시스템을 위한 사용자 선호도 기반 지식 그래프의 점진적 학습 프레임워크", 2022년 한국컴퓨터종합학술대회, 1208-1210, 2022.06.30, Jeju, Korea (NRF2022).
+  links: []
+- id: pub-cd1af7dd0f
+  category: conference
+  status: published
+  year: 2021
+  text: 김솔하, 손연빈, 김민정, 김영은, 최예림*, "포스트 코로나 시대 대응을 위한 데이터 기반 국가 역량 연구", 한국지능정보시스템학회 2021 추계학술대회, 2021.12.03 (NRF2021).
+  links: []
+- id: pub-7c42828aeb
+  category: conference
+  status: published
+  year: 2020
+  text: (Best paper award) Suehee Kwon, Yerim Choi, Sunghoon Kim, and Hyosun An, "FASHION STYLE CLASSIFICATION OF SNS IMAGES USING CONVOLUTIONAL NEURAL NETWORKS", 2020 International Conference on Clothing and Textiles (Online) (ai.m).
+  links: []
+- id: pub-3df028b942
+  category: conference
+  status: published
+  year: 2020
+  text: Yeonbin Son, Eunyoung Choi, Younghoon Roh, Sunghoon Kim, Yerim Choi*, “Dessert Atelier Recommender System Based On Tensor Factorization Using Multiple User Feedbacks", 2020 INFORMS Annual Meeting, Online, Nov 8-11, 2020 (NRF2020).
+  links: []
+- id: pub-ec898d8bf3
+  category: conference
+  status: published
+  year: null
+  text: (우수논문상) 노영훈, 최은영, 김성훈, 김예은, 최예림*, "스마트 제조를 위한 다중 관점 군집 방법론 기반의 설비 정지 유형화", KCC2019 (GRRC2018).
+  links: []
+- id: pub-cf44a3b4e5
+  category: conference
+  status: published
+  year: 2019
+  text: 손연빈, 노영훈, 최은영, 김수연, 최예림*, "고객의 만족도 별점와 텍스트 리뷰의 감성 점수를 고려한 행렬 분해 기반 논문 교정자 추천 방법론", KCC2019, 2019.06.26~2019.06.28 (GRRC2018).
+  links: []
+- id: pub-168a35d1c6
+  category: conference
+  status: published
+  year: 2019
+  text: Sunghoon Kim and Yerim Choi*, "A kNN Based Imputation Method for Incomplete Manufacturing Data", IISE Annual Conference, Orlando, Florida, May 18-21, 2019 (GRRC2018).
+  links: []
+- id: pub-90ce14a2ca
+  category: conference
+  status: published
+  year: 2019
+  text: Eunyoung Choi, Younghoon Roh, Sunghoon Kim, and Yerim Choi*, "A Comparative Study on Similarity Measures for Complex Shop-Floor Data", IISE Annual Conference, Orlando, Florida, May 18-21, 2019 (GRRC2018).
+  links: []
+- id: pub-6399adc20d
+  category: conference
+  status: published
+  year: 2019
+  text: Yeonbin Son, Sooyoun Kim, and Yerim Choi*, "Improving Journal Recommender Systems With Dynamic Weighting Methods", IISE Annual Conference, Orlando, Florida, May 18-21, 2019 (GRRC2018).
+  links: []
+- id: pub-4b0bb27691
+  category: conference
+  status: published
+  year: 2019
+  text: 최은영, 김수연, 김예은, 최예림*, "word2vec 기반의 키워드 간 유사도를 이용한 연구 및 특허 동향 분석", 한국인터넷정보학회 2019 춘계학술발표대회, 2019.04.27 (GRRC2018).
+  links: []
+- id: pub-4205005126
+  category: conference
+  status: published
+  year: 2019
+  text: 손연빈, 최예림, "K-디저트의 발전 및 디저트 아뜰리에로 살펴본 추천 시스템의 이해", 대한산업공학회 2019 춘계학술대회 (GRRC2018).
+  links: []
+- id: pub-723ad4a7c5
+  category: conference
+  status: published
+  year: 2018
+  text: (Selected paper) Yeonbin Son, Sooyoun Kim, and Yerim Choi*, "Dessert Atelier Recommendation Method Considering Importance of Visit Decision Factors", ICONI2018, 2018.12.16-19, Cambodia (NRF2018).
+  links: []
+- id: pub-04df631568
+  category: conference
+  status: published
+  year: 2018
+  text: (우수논문상) 손연빈, 김수연, 노영훈, 최예림, "연구자의 투고 이력을 고려한 동적 가중치 기반의 저널 추천 방법론", 한국인터넷정보학회 추계학술발표대회, 2018.11.03 (GRRC2018).
+  links: []
+- id: pub-da040f7e67
+  category: conference
+  status: published
+  year: 2018
+  text: 노영훈, 김성훈, 최예림, "공장 자동화를 위한 클러스터링 기반의 설비 정지 원인 유형화", 한국전자거래학회 추계학술대회, 2018.11.02 (GRRC2018).
+  links: []
+- id: pub-4cd4b55698
+  category: conference
+  status: published
+  year: 2018
+  text: Yeonbin Son, Eunyoung Choi, Younghoon Roh, and Yerim Choi, "A Clustering-Based Recommendation Method for Dessert Ateliers Considering Purchase History of Customers", Asia Pacific International Conference on Information Science and Technology (APIC-IST), 2018.06.24-27(25), Nha Trang, Vietnam (GRRC2017).
+  links: []
+- id: pub-0df4142b25
+  category: conference
+  status: published
+  year: 2018
+  text: (우수논문상) 노영훈, 안현태, 최은영, 최재명, 최예림*, "설비 정지 오류 분석을 위한 딥러닝 기반의 온톨로지 구축 방법론", 한국인터넷정보학회 춘계학술발표대회, 2018.04 (GRRC2017).
+  links: []
+- id: pub-c43656a0bd
+  category: conference
+  status: published
+  year: 2018
+  text: 손연빈, 이예준, 김수연, 최재명, 이종환, 장진영, 최예림*, "연구자 및 저널의 토픽 추출을 통한 LDA 기반 저널 추천 방법론", 한국인터넷정보학회 춘계학술발표대회, 2018.04 (GRRC2017).
+  links: []
+- id: pub-78e74fbb2a
+  category: conference
+  status: published
+  year: 2018
+  text: 장태우, 최예림, 정재윤, "스마트제조 연구조직 운영 현황과 이슈", 대한산업공학회 춘계학술대회, 2018.04.
+  links: []
+- id: pub-1a287d213e
+  category: conference
+  status: published
+  year: 2018
+  text: (Excellent paper award) Yeonbin Son, Hyeontae An, Jaemyoung Choi , Yerim Choi*, "An Editor Recommendation Method for Manuscript Proofreading Services Considering Specialty and Influence of Editor", 2018.01, ISIITA (GRRC).
+  links: []
+- id: pub-303951ce31
+  category: conference
+  status: published
+  year: 2017
+  text: (우수논문상) Hyuntai An, Yeonbin Son, Hyejoo Park, Yerim Choi*, "문서별 중요도를 고려한 LDA 기반의 전문가 매칭 방법론", 한국인터넷정보학회 추계학술발표대회, 2017.10 (GRRC)(http://www.gvalley.co.kr/news/articleView.html?idxno=545492).
+  links:
+  - text: http://www.gvalley.co.kr/news/articleView.html?idxno=545492
+    url: http://www.gvalley.co.kr/news/articleView.html?idxno=545492
+- id: pub-2ea97635d2
+  category: conference
+  status: published
+  year: 2017
+  text: Joonseo Yun, Suna Kim, Yeonbin Son, Hyeontae An, Yerim Choi*, Jonghun Park, "Text Based Gender Classification Using Two-Phase Approach", International Conference on Intelligent Systems and Applications, 2017.07.23-27, Nice, France (NRF2017).
+  links: []
+- id: pub-0d1028e558
+  category: conference
+  status: published
+  year: 2017
+  text: 정재윤, 장태우, 최예림, 이정철, 스마트공장을 고려한 제조혁신방법론(KPS) 발전방안, 한국전자거래학회 춘계학술대회, 2017.04.
+  links: []
+- id: pub-52a256e2ed
+  category: conference
+  status: published
+  year: null
+  text: Sungwook Jeon, Kilho Kim, Yerim Choi, Inbeom Park, Jaeseok Huh and Jonghun Park, "Mobile context inference using multimodal smartphone sensor data", ISCMI2016
+  links: []
+- id: pub-93eb8e9a2b
+  category: conference
+  status: published
+  year: 2015
+  text: Yoonjung Kim, Yerim Choi, Solee Kim*, Kyuyon Park, and Jonghun Park, "An ensemble model for gender classification of mobile users", The 7th International Conference on Computer Technology and Development (ICCTD 2015).
+  links: []
+- id: pub-27614561d7
+  category: conference
+  status: published
+  year: 2015
+  text: '(Best paper award) Yerim Choi, Jonghun Park, and Dongmin Shin, "EEG Sensor Based Semi-Supervised Inattention Prediction Framework for Unmanned Aerial Vehicles", The Sixth International Conference on Sensor Device Technologies and Applications: SENSORDEVICES 2015, August 23-28, 2015 - Venice, Italy.'
+  links: []
+- id: pub-6104ec8ff8
+  category: conference
+  status: published
+  year: 2015
+  text: (Best paper award) 김소이, 최예림, 김윤정, 박규연, 김길호, 박종헌, "특징적 단어 집합을 활용한 모바일 기기내 성별 예측 프레임워크", 한국컴퓨터종합학술대회 (KCC 2015), 2015.6.24-26.
+  links: []
+- id: pub-c7e14223c4
+  category: conference
+  status: published
+  year: 2015
+  text: Sungjun Lee, Yerim Choi, Seongmin Lim, and Jonghun Park, "A Spatio-Temporal Distance Based Clustering Approach for Discovering Significant Places from Trajectory Data", International Conference on Computer Science, Data Mining and Mechanical Engineering (ICCDMME2015) April 20-21, 2015 Bangkok.
+  links: []
+- id: pub-3366500d1a
+  category: conference
+  status: published
+  year: null
+  text: 최예림, 인수교, 김길호, 전승욱, 박종헌, "모바일 사용자를 위한 앙상블 기반 잠재 관심 콘텐트 예측 기법 연구", 2015년 BI/데이터마이닝학회 춘계학술대회.
+  links: []
+- id: pub-8d70d5c7f0
+  category: conference
+  status: published
+  year: 2014
+  text: 전승욱, 윤주식, 이승준, 최예림, 임성민, 이준원, 박종헌, 이상구, "토픽 추출과 소셜 네트워크를 활용한 행렬 분해 기반 컨텐츠 추천", 한국BI데이터마이닝학회 추계학술대회, 2014.
+  links: []
+- id: pub-de19ca8ad7
+  category: conference
+  status: published
+  year: 2014
+  text: Yerim Choi*, Sungwook Jeon, Jonghun Park, and Dongmin Shin, "A Research on Predicting an Optimal Behavior of Pilots Using Case Base", Korean Institute of Industrial Engineers Fall Conference, 2014.
+  links: []
+- id: pub-620d70d7b4
+  category: conference
+  status: published
+  year: 2014
+  text: Sungwook Jeon*, Yerim Choi, Cheolkyu Jee, Jonghun Park, and Dongmin Shin, "A Comparison of Clustering Methods for Defining the Air Combat Situations", Korea Institute of Military Science and Technology Conference, Jeju, Korea, June 19-20, 2014.
+  links: []
+- id: pub-4d305ca12e
+  category: conference
+  status: published
+  year: 2014
+  text: Sung-jun Lee*, Yerim Choi, Sungmin Lim, Sang-goo Lee, and Jonghun Park, "A Method Based on Clustering Algorithm For Extracting Personally Meaningful Places Using Smart Device Location logs", Korea Business Intelligence Data Mining Society Spring Conference, Seoul, Korea, April 15, 2014.
+  links: []
+- id: pub-5648241962
+  category: conference
+  status: published
+  year: 2014
+  text: Yerim Choi*, Sungwook Jeon, Jonghun Park, and Dongmin Shin, "A Behavior Optimization for Fighter Pilots Using Matrix Factorization", Korean Society for Aeronautical & Space Sciences Spring Conference, 2014.
+  links: []
+- id: pub-ae741982c0
+  category: conference
+  status: published
+  year: 2013
+  text: Yerim Choi*, Sungwook Jeon, Jonghun Park, and Dongmin Shin, "An Automatic Type Clustering Method Based on K-means Algorithm for Aircraft Status Features", Korean Society for Aeronautical & Space Sciences Fall Conference, Jeju, Korea, 2013.
+  links: []
+- id: pub-84a496bfd4
+  category: conference
+  status: published
+  year: 2013
+  text: Joosik Yoon*, Namyeon Kwon, Yerim Choi, Jonghun Park, and Dongmin Shin, "A Research on Effectiveness Evaluation of Attention Maintenance Framework for UAV", Korean Society for Aeronautical & Space Sciences Fall Conference, Jeju, Korea, 2013.
+  links: []
+- id: pub-06fc3c56b5
+  category: conference
+  status: published
+  year: 2014
+  text: Yerim Choi, Seungwook Jun, Jounghun Park, and Dongmin Shin, "Learning Pilot behavior and decision processes using combat simulation log data", Korea-Japan Joint Workshop on Social Simulation (JaKoSS 2014), Mar. 06, Ishigaki, Japan, 2014.
+  links:
+  - text: J
+    url: http://interact.hanyang.ac.kr/wiki.php/JaKoSS
+- id: pub-08c1b6a98f
+  category: conference
+  status: published
+  year: 2013
+  text: Yerim Choi*, Namyeon Kwon, Joosik Yoon, Sungwook Jeon, Bo-Hyung Paeng, Jonghun Park, and Dongmin Shin, "A Semi-supervised Attributes-weighting Clustering Method for Inattention Prediction in Human-machine Interaction Systems", Asia Pacific Industrial Engineering and Management Systems Conference, Cebu, Philippines, December 3-6, 2013.
+  links: []
+- id: pub-dbe60499a9
+  category: conference
+  status: published
+  year: 2013
+  text: Sungwook Jeon*, Yerim Choi, Cheolkyu Jee, Jonghun Park, and Dongmin Shin, "Feature Selection for Agent Behavior Generation Based on Support Vector Machines", Korea Institute of Military Science and Technology Conference, Jeju, Korea, 2013.
+  links: []
+- id: pub-b64c204364
+  category: conference
+  status: published
+  year: 2013
+  text: Yerim Choi*, Sungwook Jeon, Cheolkyu Jee, Jonghun Park, and Dongmin Shin, "Decision-Making Models for Fighter Pilots Based on Statistical Learning Methods", Korean Institute of Industrial Engineers Spring Conference, Yeo-su, Korea, May 24-25, 2013.
+  links: []
+- id: pub-228c584af3
+  category: conference
+  status: published
+  year: 2013
+  text: Namyeon Kwon*, Yerim Choi, Joosik Yoon, Taehyun Ha, Dongmin Shin, Jonghun Park, and Hyunsoon Kim, "A BCI Based Vigilance Decrement Prediction and Warning Framework for UAV Operators", Korean Institute of Industrial Engineers Spring Conference, Yeo-su, Korea, May 24-25, 2013.
+  links: []
+- id: pub-937fbcf029
+  category: conference
+  status: published
+  year: 2013
+  text: Yerim Choi*, Sungwook Jeon, Jonghun Park, Dongmin Shin, and Cheolkyu Jee, "Automatic Behavior Generation for Fighter Pilots Based on Support Vector Machines", Korean Society for Aeronautical & Space Sciences Spring Conference, 2013.
+  links: []
+- id: pub-25c2e9bdeb
+  category: conference
+  status: published
+  year: 2012
+  text: Yongsuk Yang, Junseok Lim, Beom-suk Chung, Sungmin Lim, Sung-jun Lee, Yerim Choi, Jonghun Park, and Jae Hoon Jin, "Churn Prediction for a Massively Multiplayer Online Role-Playing Game Using a Hidden Markov Model", IADIS International Conference on Internet Technologies & Society 2012 (ITS 2012), Perth, Australia, November 28–30, 2012.
+  links: []
+- id: pub-4dfdce071f
+  category: conference
+  status: published
+  year: 2011
+  text: Kwanho Kim, Beom-Suk Chung, Yerim Choi, and Jonghun Park, "Semantic Pattern Tree Kernels for Short-text Classification", International Workshop on Cloud and Social Networking, Sydney, Australia, December 12-14, 2011.
+  links: []
+- id: pub-0b3cf6d9f7
+  category: magazine-book
+  status: published
+  year: 2020
+  text: AI(인공지능)의 확산과 협업 인공지능의 등장, AI·DATA INSIGHT 웹진 5호, 2020.03.24. (http://webzine.aihub.or.kr/insight/vol05/sub3_1.php)
+  links:
+  - text: http://webzine.aihub.or.kr/insight/vol05/sub3_1.php
+    url: http://webzine.aihub.or.kr/insight/vol05/sub3_1.php
+- id: pub-94d9cae10a
+  category: magazine-book
+  status: published
+  year: 2020
+  text: '(자문) 데이터로 바라본 주요 기술 : 뉴스, 논문, 특허 데이터를 중심으로, 한국정보화진흥원, 2020.01. (https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=21696&parentSeq=21696)'
+  links: []
+- id: pub-be4a5337fe
+  category: magazine-book
+  status: published
+  year: 2018
+  text: '데이터 경제를 위한 우리의 준비 : AI와 데이터 그리고 플랫폼, 한국정보화진흥원, 2018.12. (ISBN : 978-89-8483-349-4) (https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=26537&bcIdx=20536&parentSeq=20536)'
+  links:
+  - text: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=26537&bcIdx=20536&parentSeq=20536
+    url: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=26537&bcIdx=20536&parentSeq=20536
+- id: pub-70e0893a3a
+  category: magazine-book
+  status: published
+  year: 2018
+  text: '카카오 AI 리포트 : 인간과 인공지능을 말하다, 북바이북, 2018.09.10. (ISBN : 9791185400822)'
+  links: []
+- id: pub-f15b5ffd0e
+  category: magazine-book
+  status: published
+  year: 2017
+  text: 중앙대학교 대학원신문, "인공지능 기술의 발전을 토대로 본 4차 산업혁명", 2017.09. (http://gspress.cauon.net/news/articleView.html?idxno=21499)
+  links:
+  - text: http://gspress.cauon.net/news/articleView.html?idxno=21499
+    url: http://gspress.cauon.net/news/articleView.html?idxno=21499
+- id: pub-8cf4f31a46
+  category: magazine-book
+  status: published
+  year: 2017
+  text: (자문) 한국정보화진흥원 Hot Issue Report 2017-10, "문재인 정부 국정운영 5개년 계획 분석", 2017.09. (https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=19083&parentSeq=19083)
+  links:
+  - text: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=19083&parentSeq=19083
+    url: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=19083&parentSeq=19083
+- id: pub-73d369c312
+  category: magazine-book
+  status: published
+  year: 2017
+  text: '데이터 기반 과학적 정책과제 수립 실무 핸드북, 한국정보화진흥원 정책기획팀, 2017.07.28. (ISBN : 979-11-952404-4-9)(https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=66361&bcIdx=18943&parentSeq=18943)'
+  links:
+  - text: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=66361&bcIdx=18943&parentSeq=18943
+    url: https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=66361&bcIdx=18943&parentSeq=18943
+- id: pub-ef74ea125e
+  category: magazine-book
+  status: published
+  year: 2017
+  text: (자문) 한국정보화진흥원 Hot Issue Report 2017-8, "제19대 대통령 선거 정책 공약 분석", 2017.06. (http://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=18739&parentSeq=18739)
+  links:
+  - text: http://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=18739&parentSeq=18739
+    url: http://nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=39485&bcIdx=18739&parentSeq=18739
+- id: pub-21ca3b6ce0
+  category: magazine-book
+  status: published
+  year: 2017
+  text: 카카오AI리포트, "산업 현장 속으로 들어간 AI - 4차 산업혁명과 AI가 가져올 변화", 2017.05. (https://brunch.co.kr/@kakao-it/67)
+  links:
+  - text: https://brunch.co.kr/@kakao-it/67
+    url: https://brunch.co.kr/@kakao-it/67
+- id: pub-90073d4f44
+  category: magazine-book
+  status: published
+  year: 2016
+  text: IE매거진, "인공지능 개요 및 적용 사례", 2016.06. (http://insight.dbpia.co.kr/article/metrics.do?nodeId=NODE06739074#)(http://news.unn.net/news/articleView.html?idxno=177396)
+  links:
+  - text: http://insight.dbpia.co.kr/article/metrics.do?nodeId=NODE06739074
+    url: http://insight.dbpia.co.kr/article/metrics.do?nodeId=NODE06739074
+  - text: http://news.unn.net/news/articleView.html?idxno=177396
+    url: http://news.unn.net/news/articleView.html?idxno=177396
+- id: pub-33a73ae501
+  category: patent-software
+  status: published
+  year: 2025
+  text: '최예림, 최보현, 박지윤, "크라우드펀딩 패션 스토리텔링 분석 대시보드", 등록번호: C-2025-058490, 등록일: 2025.12.18.'
+  links: []
+- id: pub-2319754cee
+  category: patent-software
+  status: published
+  year: 2024
+  text: 안효선, 박혜련, 최예림, "메타버스 패션 콘텐츠를 위한 실물 의류 속성 태그", TTAK.KO-10.1545, 2024.12.06 (국내표준).
+  links: []
+- id: pub-bc10bbce96
+  category: patent-software
+  status: published
+  year: 2023
+  text: '(미국, 중국 국제출원) 민혜근, 최예림, 손연빈, 김성훈, 최은영, "렌즈모듈 조립 최적화 방법", 출원번호 : 10-2021-0023177, 출원인 : 삼성전기 주식회사, 경기대학교 산학협력단, 2021.02.22, 등록번호: 102527718, 등록일 : 2023.05.03 (Patent).'
+  links: []
+- id: pub-06c4417cb3
+  category: patent-software
+  status: published
+  year: 2022
+  text: '최예림, 최은영, 김성훈, "설비 정지 이력을 이용한 발생 가능한 오류 리스트 도출 장치 ", 출원번호: 10-2020-0065001, 출원인: 경기대학교 산학협력단, 2020.05.29, 등록번호 : 1023946580000, 등록일 : 2022.05.04 (Patent) (GRRC2019).'
+  links: []
+- id: pub-cb34eb3db4
+  category: patent-software
+  status: published
+  year: 2021
+  text: '최예림, 노영훈, 최은영, "설비 오류 발생 패턴 추출 장치 및 방법", 등록번호: 1022433720000, 등록일자: 2021.04.16, 출원번호: 10-2019-0012094, 출원인: 경기대학교 산학협력단, (주)우진공업, 2019.01.30 (Patent)(GRRC2018).'
+  links: []
+- id: pub-37ed898b47
+  category: patent-software
+  status: published
+  year: 2021
+  text: '최예림, 손연빈, "고객의 구매 결정 요인에 대한 선호 민감도에 기초한 상품 추천 방법", 등록번호: 1022314870000, 등록일자: 2021.03.18, 출원번호: 10-2018-0160130, 출원인: 경기대학교 산학협력단, 2018.12.12 (Patent)(GRRC2018).'
+  links: []
+- id: pub-93dbdff78b
+  category: patent-software
+  status: published
+  year: 2020
+  text: '최예림, 손연빈, 이예준, 김수연, 최은영, "워드 클라우드 기반 계층적 정보 검색 그래픽 유저 인터페이스 제공 시스템 및 방법", 등록번호: 1021581940000, 등록일자: 2020.09.15, 출원번호: 10-2019-0001957, 출원일자: 2019.01.07 , 출원인: 경기대학교 산학협력단 (Patent)(GRRC2018).'
+  links: []
+- id: pub-674596019f
+  category: patent-software
+  status: published
+  year: 2019
+  text: '최예림, 손연빈, 안현태, 박혜주, 이종환, 장진영, "에디터 추천 장치 및 방법", 출원번호: 10-2018-0026820 , 출원일: 2018.03.07, 출원인: 경기대학교 산학협력단, (주)워드바이스, 등록번호: 10-2036507, 등록일자: 2019.10.21 (GRRC2017).'
+  links: []
+- id: pub-9b7411301a
+  category: patent-software
+  status: published
+  year: 2016
+  text: '신동민, 박종헌, 최예림, 전승욱, 지철규, "사용자의 뇌파를 이용한 집중 상태 및 비집중 상태 검출 방법 및 그 장치", 출원번호: 10-2015-0114823, 출원일: 2015.08.13, 출원인: 국방과학연구소, 등록번호: 10-1640788, 등록일자: 2016.07.13.'
+  links: []
+- id: pub-368787bf68
+  category: patent-software
+  status: published
+  year: 2016
+  text: '신동민, 박종헌, 최예림, 전승욱, 지철규, "혼합시퀀스 커널과 지지기반벡터를 이용한 전투기 조종사의 행위 모사 시스템", 출원번호: 10-2015-0117517, 출원일: 2015.08.20, 출원인: 국방과학연구소, 등록번호: 10-1585509, 등록일자: 2016.01.08.'
+  links: []
+- id: pub-9d3cee2cfc
+  category: patent-software
+  status: published
+  year: 2015
+  text: '신동민,박종헌,최예림,전승욱,지철규, 행위 및 의사결정 프로세스 모사 그래픽 사용자 인터페이스 소프트웨어, 등록번호: C-2015-008833, 등록연월일: 2015.04.16.'
+  links: []
+- id: pub-4c0402f7a4
+  category: patent-software
+  status: published
+  year: 2015
+  text: '신동민,박종헌,최예림,전승욱,지철규, 케이스 베이스 기반 조종사 판단 최적화 모델 프로그램, 등록번호: C-2015-008824, 등록연월일: 2015.04.16.'
+  links: []
+- id: pub-1c458ed65c
+  category: patent-software
+  status: published
+  year: 2014
+  text: '신동민,박종헌,최예림,전승욱,지철규, 디피시에이 은닉마코프모델 기반 조종사 판단 모사 모델 프로그램, 등록번호 C-2014-034203, 등록연월일: 2014.12.30.'
+  links: []
+- id: pub-f302016190
+  category: patent-software
+  status: published
+  year: 2014
+  text: '신동민,박종헌,최예림,전승욱,지철규, 행위 표현 데이터 도출 모델 프로그램, 등록번호: C-2014-016946, 등록연월일: 2014.07.10.'
+  links: []
+- id: pub-2129cdaae1
+  category: patent-software
+  status: published
+  year: 2014
+  text: '신동민,박종헌,최예림,전승욱,지철규, 조종사 판단 최적화 모델 프로그램, 등록번호: C-2014-016948, 등록연월일: 2014.07.09.'
+  links: []
+- id: pub-6f2d41887c
+  category: patent-software
+  status: published
+  year: 2014
+  text: '신동민,박종헌,최예림,전승욱,지철규, 조종사 판단 모사 모델 프로그램, 등록번호: C-2014-016947, 등록연월일: 2014.07.09.'
+  links: []
+- id: pub-9c87a065dd
+  category: thesis
+  status: published
+  year: 2020
+  text: Yeonbin Son, AI-Based Recommender System for Dessert E-Commerce Using Diverse Data Sources (다양한 데이터 소스를 활용한 디저트 이커머스용 AI 기반 추천 시스템 ), Master Thesis, Kyonggi University, 2020.02
+  links: []
+- id: pub-c4eb5028f1
+  category: thesis
+  status: published
+  year: 2016
+  text: Yerim Choi, A Statistical Learning Approach to Human Behavior and Status Inference for Unmanned Vehicle Operation (무인이동체 운용을 위한 통계적 학습 기반 인간 행위 및 상태 추론), PhD Thesis, Seoul National University, 2016.02.
+  links: []

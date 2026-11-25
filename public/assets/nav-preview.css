@@ -1,0 +1,102 @@
+.nav-preview-host {
+  position: relative;
+}
+
+.nav-preview[hidden] {
+  display: none;
+}
+
+.nav-preview {
+  position: absolute;
+  z-index: 30;
+  top: 100%;
+  box-sizing: border-box;
+  width: clamp(14rem, 17vw, 17rem);
+  max-width: calc(100vw - 1.5rem);
+  padding: .35rem 1.3rem .45rem;
+  border: 1px solid rgb(67 105 107 / 19%);
+  background: rgb(255 255 255 / 96%);
+  color: #193c4a;
+  box-shadow: 0 6px 14px -9px rgb(20 53 60 / 20%);
+  color-scheme: light;
+}
+
+@supports ((backdrop-filter: blur(12px)) or (-webkit-backdrop-filter: blur(12px))) {
+  /* An ancestor's backdrop stops the panel from softening the page beneath it. */
+  .masthead:has(.nav-preview:not([hidden])) {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .nav-preview {
+    background-color: rgb(255 255 255 / 89%);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* Keep the path from the trigger to the header's lower edge inside the flyout. */
+.nav-preview::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 100%;
+  height: var(--menu-bridge, 0px);
+}
+
+.nav-preview a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 2.6rem;
+  padding-block: .55rem;
+  color: inherit;
+  font-size: .92rem;
+  font-weight: 530;
+  letter-spacing: -.015em;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.nav-preview a + a {
+  border-top: 1px solid rgb(83 121 123 / 13%);
+}
+
+.nav-preview a::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: -.8rem;
+  width: .4rem;
+  border-top: 1.5px solid currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.nav-preview a:is(:hover, :focus-visible) {
+  color: #12615e;
+  text-decoration: none;
+}
+
+.nav-preview a:is(:hover, :focus-visible)::before {
+  transform: scaleX(1);
+}
+
+.nav-preview a:focus-visible {
+  outline: 2px solid #427b7a;
+  outline-offset: 1px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav-preview { animation: nav-preview-enter 150ms ease-out; }
+  .nav-preview a { transition: color 120ms ease-out; }
+  .nav-preview a::before { transition: transform 150ms ease-out; }
+}
+
+@keyframes nav-preview-enter {
+  from { opacity: .75; }
+  to { opacity: 1; }
+}
+
+@media print, (max-width: 900px) {
+  .nav-preview {
+    display: none;
+  }
+}

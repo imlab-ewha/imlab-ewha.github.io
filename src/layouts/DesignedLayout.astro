@@ -1,0 +1,69 @@
+---
+// Page frame for the redesigned pages (home, research, people, director, publications).
+import Footer from '../components/Footer.astro';
+import Logo from '../components/Logo.astro';
+import { getDirector, NAV, u } from '../lib/site';
+
+interface Props {
+  title: string;
+  section: 'home' | 'research' | 'people' | 'director' | 'publications';
+  /** True on a page below a section index, e.g. a research area detail page. */
+  parent?: boolean;
+}
+const { title, section, parent = false } = Astro.props;
+const director = await getDirector();
+const active = section === 'director' ? 'people' : section;
+const currentState = parent || section === 'director' ? 'location' : 'page';
+const description = section === 'home'
+  ? 'Information Management Lab at Ewha Womans University'
+  : `${title} at the Information Management Lab, Ewha Womans University`;
+const pageTitle = section === 'home' ? 'Information Management Lab. | Ewha Womans University' : `${title} | IMLab`;
+const design = u('assets/design');
+const assets = u('assets');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content={description}>
+  <title>{pageTitle}</title>
+  <link rel="preload" as="font" href={`${design}/fonts/DMSans.woff2`} type="font/woff2" crossorigin>
+  <link rel="stylesheet" href={`${design}/fonts/face.css`}>
+  <link rel="stylesheet" href={`${design}/brand.css`}>
+  <link rel="stylesheet" href={`${design}/design.css`}>
+  <link rel="stylesheet" href={`${assets}/nav-preview.css`}>
+  <link rel="stylesheet" href={`${assets}/footer.css`}>
+  {section === 'research' && parent && <link rel="stylesheet" href={`${design}/publications.css`}>}
+  {section !== 'home' && <link rel="stylesheet" href={`${design}/${section}.css`}>}
+  {section === 'publications' && <script is:inline defer src={`${assets}/site.js`}></script>}
+  <script is:inline defer src={`${design}/design.js`}></script>
+  <script is:inline defer src={`${assets}/nav-preview.js`}></script>
+</head>
+<body class={`overview ${section}-page`}>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href={u('')} aria-label="IMLab home" aria-current={section === 'home' ? 'page' : undefined}>
+        <Logo />
+      </a>
+      <button class="menu" aria-controls="primary-nav" aria-expanded="false" hidden type="button">Menu <span aria-hidden="true"></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        {NAV.map(([key, label]) => (
+          <a
+            href={u(`${key}/`)}
+            aria-current={key === active ? currentState : undefined}
+            data-director-href={key === 'people' ? u(`people/${director.id}/`) : undefined}
+            data-alumni-href={key === 'people' ? u('people/alumni/') : undefined}
+          >{label}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

@@ -1,0 +1,323 @@
+# Research projects in display order. status: current | past
+- id: project-c9f0012c95
+  status: current
+  affiliation: ''
+  text: 과제책임자, 다단계 비동기 공정 인과성 추론 데이터 구축 사업, PostAI, 2026.08.01-2026.11.31 (NIA-Industry)
+  links: []
+- id: project-9c10779958
+  status: current
+  affiliation: ''
+  text: 과제책임자, 페르소나 에이전트 및 사회 시뮬레이션 시스템 개발, PostAI, 2026.06.01-2027.05.31 (PERSONA)
+  links: []
+- id: project-ddef159886
+  status: current
+  affiliation: ''
+  text: 연구책임자, 피드백의 다의성을 능동적으로 활용하는 메타인지 기반의 적응형 Agent-in-the-Loop 최적화 프레임워크, 신진연구, 한국연구재단, 2026.03.01-2029.02.28 (NRF신진, RS-2026-25491148)
+  links: []
+- id: project-906fe7e511
+  status: current
+  affiliation: ''
+  text: 참여연구원, AI Agent 기반 지능형 스마트시티 운영·거버넌스 구축, Ewha Global Excellence Program, 이화여자대학교, 2025.11.01-2027.08.31 (EGEP)
+  links: []
+- id: project-07bdc7f216
+  status: current
+  affiliation: ''
+  text: 과제책임자, 패션을 위한 초거대 언어 모델을 융합한 대화형 추천 시스템 개발 연구, 신임교원 연구과제, 이화여자대학교, 2025.03.01-2027.02.28 (EWHA2025)
+  links: []
+- id: project-4014008853
+  status: current
+  affiliation: ''
+  text: '참여연구원, 패션산업에서의 디지털 트랜스포메이션 패러다임: 공동가치창출을 위한 산학협력 교육과 소비자 연구를 중심으로, 학술인문사회사업(통합)-일반공동연구지원사업, 한국연구재단, 2024.06.01-2027.05.31 (FashionLLM) (?)'
+  links: []
+- id: project-fb23776ff3
+  status: past
+  affiliation: EWHA
+  text: 참여연구원, 인공지능융합혁신인재양성(인공지능융합혁신대학원)사업, 정보통신기획평가원, 2025.03.01-2025.12.31 (AIX) (10%)
+  links: []
+- id: project-bf72998f71
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 2025년 방송영상 AI 학습용 데이터 구축 사업, PostAI, 2025.10.13-2026.01.31
+  links: []
+- id: project-4d04e78a43
+  status: past
+  affiliation: ai.m
+  text: 총괄책임자, 패션과 스타일테크 융합 메타버스 이커머스 플랫폼 기술개발, 문화체육관광 연구개발사업(메타버스 콘텐츠IP제작 표준기술개발), 한국콘텐츠진흥원, 2023.04.01-2025.12.31 (Fashion2023)
+  links: []
+- id: project-a0623739d3
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 2025 이화 라이프테크 창업경진대회, 2025.04.01-2025.12.31
+  links: []
+- id: project-75c3fc4a8b
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, LLM 기반 온라인 셀러를 위한 AI 글쓰기 서비스, 셀롸이트, TIPS 창업사업화, 2024.11.01-2025.08.31
+  links: []
+- id: project-aac8b95290
+  status: past
+  affiliation: ai.m
+  text: 연구책임자, 고객의 실시간 쇼핑 상태를 반영하는 가상 휴먼 대화 엔진 개발, TIPS, 2022.05.01-2024.10.31
+  links: []
+- id: project-bc1efe3e4c
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 초거대 AI 기반 가상 판매자 대화 엔진 적용 메타커머스 플랫폼, 융합형 메타버스 서비스 지원사업, 2023.05.01~2023.12.31
+  links: []
+- id: project-4234014b0c
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 자사몰과 손쉽게 연동되는 내 브랜드의 첫 번재 메타버스 스토어, 팝스, 메타버스 초기기업 인프라 지원사업, 2023.06.01~2023.11.30
+  links: []
+- id: project-56181c7b67
+  status: past
+  affiliation: ai.m
+  text: (우수종료) 과제책임자, 이커머스를 위한 메타버스 팝업 플레이스, 팝스, 비대면스타트업지원사업, 특허정보원, 창업진흥원, 2022
+  links: []
+- id: project-942a22f56a
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, AI 수준조사, 한국지능정보사회진흥원, 한구전자통신연구원, 2022
+  links: []
+- id: project-1a2cb0c998
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 다중 분석 지능 AI를 활용한 빅데이터 기반 브랜드 평가 솔루션(w/칸그림), AI바우처, 2022
+  links: []
+- id: project-b35aa62def
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 이커머스 셀러를 위한 상품 매출 예측 및 최적 판매 상품 추천 기술 개발, 디딤돌 창업기업지원과제, 중소벤처기업부, 2020.12.31~2021.12.30
+  links: []
+- id: project-78b6ec90d0
+  status: past
+  affiliation: ai.m
+  text: (최우수종료) 과제책임자, e-commerce 셀러를 위한 판매 상품 추천 및 인플루언서 매칭 서비스, 초기창업패키지, 창업진흥원, 중소벤처기업부, 2020.06.01~2021.02.28
+  links: []
+- id: project-4db743218a
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 2021년 데이터 분석 모델 고도화, 경기도, 2021.07.07~2021.12.03
+  links: []
+- id: project-2b5406600f
+  status: past
+  affiliation: ai.m
+  text: '과제책임자, 데이터바우처지원사업(w/ Wisely(고객 리뷰 빅데이터 기반 맞춤형 구독 서비스 고도화 AI 모델 개발 : 크라우드 소싱 레이블러를 활용한 AOS Triple 어노테이션), HowGrow(소상공인 매출 증대를 위한 AI 평가도구 개발 : 기업정보 및 평가 데이터 구축), Wordvice(AI 학술 영문 교정 성능 고도화를 위한 크라우드 소싱 기반 논문 Section 어노테이션)), K-Data & 과기부, 2021.06.15 ~ 2021.11.31'
+  links: []
+- id: project-865bfd16a4
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 신규 데이터 활용 모델 개발 사업, 경기도, 2020.09.17~2021.02.13
+  links: []
+- id: project-18214fd9fb
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 학술용 영문서 자동 교정 서비스를 위한 딥러닝 기반 AI솔루션, AI 바우처 지원사업, 정보통신산업진흥원, 과학기술정보통신부, 2020.09.01~2020.12.31
+  links: []
+- id: project-248c007f6c
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 사용자 맞춤형 AI 패션 추천 서비스, 데이터 바우처 지원사업, 한국데이터산업진흥원, 과학기술정보통신부, 2020.09.01~2020.12.31
+  links: []
+- id: project-b95d803992
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 데이터 배당 정책 확산 기업 발굴 및 지원 사업, 경기도경제과학진흥원, 경기도, 2020.09.15~2020.12.31
+  links: []
+- id: project-162f53c78f
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 클라우드 기반 데이터 분석 환경 지원, K-ICT 센터, 한국지능정보사회진흥원, 2020.09.01~2020.12.31
+  links: []
+- id: project-7baaa1f3f2
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 인공지능 학습용 데이터 구축사업(문서요약 텍스트 데이터(우수사례 선정), K-Fashion 이미지 데이터(우수사례 선정)), 한국지능정보사회진흥원, 과학기술정보통신부, 2020.07.01~2020.12.31
+  links: []
+- id: project-172ccff3f2
+  status: past
+  affiliation: ai.m
+  text: 과제책임자, 우리나라 인공지능 분야 수준조사 사업, 한국지능정보사회진흥원, 2020.09.21~2020.12.18
+  links: []
+- id: project-1586de8739
+  status: past
+  affiliation: ai.m
+  text: (최우수종료) 인공지능 기반 인간 매칭 솔루션 개발, 예비창업패키지(구 기술혁신형 창업기업 지원사업), 중소벤처기업부, 2018-2019
+  links: []
+- id: project-539c9c50ef
+  status: past
+  affiliation: SWU
+  text: 참여연구원, 신기술분야융합디자인 전문인력양성사업, 산자부, 2022.03-2025.02
+  links: []
+- id: project-776cc40244
+  status: past
+  affiliation: SWU
+  text: 연구책임자, 제조 조립 최적화 문제 해결을 위한 협동 AI 기술 개발 연구, 이공분야기초연구사업(신진연구), 한국연구재단, 2020.03.01~2023.02.28
+  links: []
+- id: project-e62a815ce6
+  status: past
+  affiliation: SWU
+  text: 참여연구원, 소프트웨어중심대학 지원사업, IITP & 과기부, 2020.09~2022
+  links: []
+- id: project-28c1a2fc0e
+  status: past
+  affiliation: SWU
+  text: 총괄책임자, 2021 데이터 청년 캠퍼스, K-Data & 과기부, 2021.06.01~2021.10.30
+  links: []
+- id: project-1313f7d52f
+  status: past
+  affiliation: SWU
+  text: '참여연구원, 2020 재정사업 심층평가: 빅데이터 플랫폼 구축 사업군, 기획재정부, 2020.12.01~2021.05.31'
+  links: []
+- id: project-d410d62e8c
+  status: past
+  affiliation: KGU
+  text: 부센터장, 경기대-KT 빅데이터 센터, 빅데이터 플랫폼·센터 구축 사업, 과학기술정보통신부(한국정보화진흥원), 2019.07.01~2020.08.31 (https://news.sbs.co.kr/news/endPage.do?news_id=N1005262114&plink=ORI&cooper=NAVER, https://www.yna.co.kr/view/AKR20190510084700017?input=1195m, http://www.edaily.co.kr/news/read?newsId=01580966622488264&mediaCodeNo=257&OutLnkChk=Y, https://news.joins.com/article/23535433)
+  links:
+  - text: https://news.sbs.co.kr/news/endPage.do?news_id=N1005262114&plink=ORI&cooper=NAVER
+    url: https://news.sbs.co.kr/news/endPage.do?news_id=N1005262114&plink=ORI&cooper=NAVER
+  - text: https://www.yna.co.kr/view/AKR20190510084700017?input=1195m
+    url: https://www.yna.co.kr/view/AKR20190510084700017?input=1195m
+  - text: http://www.edaily.co.kr/news/read?newsId=01580966622488264&mediaCodeNo=257&OutLnkChk=Y
+    url: http://www.edaily.co.kr/news/read?newsId=01580966622488264&mediaCodeNo=257&OutLnkChk=Y
+  - text: https://news.joins.com/article/23535433
+    url: https://news.joins.com/article/23535433
+- id: project-f02f3bfae4
+  status: past
+  affiliation: KGU
+  text: '총괄책임자, 2020 (빅)데이터 청년인재 양성 운영대학, 과학기술정보통신부(전담: 한국데이터산업진흥원)(프로젝트 대상 수상), 2020.4.24~2020.10.24 (https://www.zdnet.co.kr/view/?no=20200423171850)'
+  links:
+  - text: https://www.zdnet.co.kr/view/?no=20200423171850
+    url: https://www.zdnet.co.kr/view/?no=20200423171850
+- id: project-cae2584795
+  status: past
+  affiliation: KGU
+  text: 참여연구원, 지능형 제조 빅데이터 분석 연구, GRRC 지능정보융합제조연구센터, 2017.08.01-2020.08.31 (with Wordvice, 우진공업, Desserting)(http://www.gvalley.co.kr/news/articleView.html?idxno=545492, https://www.boannews.com/media/view.asp?idx=78690&kind=, http://www.gvalley.co.kr/news/articleView.html?idxno=566810)
+  links:
+  - text: http://www.gvalley.co.kr/news/articleView.html?idxno=545492
+    url: http://www.gvalley.co.kr/news/articleView.html?idxno=545492
+  - text: https://www.boannews.com/media/view.asp?idx=78690&kind=
+    url: https://www.boannews.com/media/view.asp?idx=78690&kind=
+  - text: http://www.gvalley.co.kr/news/articleView.html?idxno=566810
+    url: http://www.gvalley.co.kr/news/articleView.html?idxno=566810
+- id: project-7d4178cb87
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 스마트 제조를 위한 multi-view 군집화 기반의 설비 정지 원인 유형화 방법론, KGU, 2019.06.01 - 2020.05.31
+  links: []
+- id: project-be855ec3ef
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 인공지능과 교통 빅데이터를 활용한 혼잡 예보 서비스, 데이터 플래그십 사업(실증확산)(with 도로교통공단, UNIST, 고려대, Opinion Live), 과학기술정보통신부(한국정보화진흥원), 2019.05.01~2019.12.20
+  links: []
+- id: project-7ee34aaa24
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 렌즈 생산 품질 향상을 위한 AI 기반 조립 최적화 방법론 개발, 삼성전기, 2019.03.01~2019.12.31
+  links: []
+- id: project-38f4fa51b8
+  status: past
+  affiliation: KGU
+  text: '총괄책임자, 2019 (빅)데이터 청년인재 양성 운영대학, 과학기술정보통신부(전담: 한국데이터산업진흥원), 2019.4.1~2019.9.30 (http://it.chosun.com/site/data/html_dir/2019/03/29/2019032902271.html, https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=138&aid=0002071584. https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=030&aid=0002801153)'
+  links:
+  - text: http://it.chosun.com/site/data/html_dir/2019/03/29/2019032902271.html
+    url: http://it.chosun.com/site/data/html_dir/2019/03/29/2019032902271.html
+  - text: https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=138&aid=0002071584
+    url: https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=138&aid=0002071584
+  - text: https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=030&aid=0002801153
+    url: https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=030&aid=0002801153
+- id: project-437c5be6b9
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 사용자 선호도 도출 및 선호도 기반 추천을 위한 다요인 데이터 분석 연구, KGU, 2018.06.01 - 2019.05.31
+  links: []
+- id: project-ba1f319c21
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 데이터 기반 인공지능을 이용한 인간 상태 이해 기법 연구, 이공분야기초연구사업(생애첫연구), 한국연구재단, 2017.03.01 - 2019.02.28
+  links: []
+- id: project-3d80ffe3e4
+  status: past
+  affiliation: KGU
+  text: (기술이전) 연구책임자, 비정형 텍스트 VOC 데이터를 이용한 빅데이터 분석 기법 관련 노하우 기술, BLEE, 2019.01.02
+  links: []
+- id: project-ad6a570e3b
+  status: past
+  affiliation: KGU
+  text: 연구책임자, 통계적 학습 기반 모바일 사용자 성별 예측 연구, KGU, 2017.06.01 - 2018.05.31
+  links: []
+- id: project-14aa80bed1
+  status: past
+  affiliation: KGU
+  text: 참여연구원, 대전시 스마트 제조혁신 추진체계 및 기술센터 건립방안 연구, 한국생산성본부, 2017.12.01 - 2018.02.28
+  links: []
+- id: project-f2029df95f
+  status: past
+  affiliation: KGU
+  text: 참여연구원, 운송물류 안전 빅데이터 사례분석, 한국철도기술연구원, 2017
+  links: []
+- id: project-f845c3ce3b
+  status: past
+  affiliation: KGU
+  text: 참여연구원, KPS개발과제 성과분석 및 발전방향 연구, 한국생산성본부, 2017.02.25 - 2017.04.24
+  links: []
+- id: project-26434da9f6
+  status: past
+  affiliation: SNU
+  text: Samsung software center, Smart campus, 2015
+  links: []
+- id: project-76d8304802
+  status: past
+  affiliation: SNU
+  text: Kakao, 상황 인식형 추천 및 사용자 피드백 수집 기법 연구, 2014
+  links: []
+- id: project-f2a8e7c67f
+  status: past
+  affiliation: SNU
+  text: 헬스커넥트(SKT), 헬스온스토리 추천시스템 개발, 2013
+  links: []
+- id: project-87e808a50a
+  status: past
+  affiliation: SNU
+  text: ADD, 인간 판단 모의 기법 기술, 2012.07 - 2014.12
+  links: []
+- id: project-ec69b343bc
+  status: past
+  affiliation: SNU
+  text: 삼성 SDS, SDS Solution Quadrant, 2012.06 - 2012.07
+  links: []
+- id: project-84d8080fa7
+  status: past
+  affiliation: SNU
+  text: ADD, UCAV 운용을 위한 지상 통제 시스템 UI 최적화 연구(Ground Control System UI Optimization for UCAV), 2010.11 - 2012.10
+  links: []
+- id: project-f7639823f6
+  status: past
+  affiliation: SNU
+  text: 인터파크, 통계적 기계학습을 이용한 상품검색 및 문서 처리 지능화 기법 연구, 2010.10.01 - 2011.01.31
+  links: []
+- id: project-7dc5268a2d
+  status: past
+  affiliation: SNU
+  text: BK21 plus
+  links: []
+- id: project-5be886f539
+  status: past
+  affiliation: SNU
+  text: 한국연구재단, 상황 기반 사용자 욕구 추론 및 맷칭 기술 연구, 2013.06.01 - 2016.05.31
+  links: []
+- id: project-16fc69aa3f
+  status: past
+  affiliation: SNU
+  text: 한국연구재단, 실시간 정보 스트림 검색 모형 및 이벤트 탐지 기법 연구, 기본연구지원사업(유형I; Retrieval Models for Real-Time Information Streams & New Event Detection), 2010.05.01 - 2013.04.30
+  links: []
+- id: project-33d2a871f0
+  status: past
+  affiliation: SNU
+  text: 한국연구재단, 데이터과학과 지식창출 연구센터, SRC, NRF, 2011.09 - 2018.08
+  links: []
+- id: project-6c8f91ffc3
+  status: past
+  affiliation: SNU
+  text: BK21사업, 해양기술인력양성사업단(5-7차년도), 2010.09.01 - 2013.08.31
+  links: []

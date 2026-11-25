@@ -1,0 +1,99 @@
+.director-heading {
+  padding-block: .85rem clamp(1.7rem, 3vw, 2.65rem);
+}
+
+.directory-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 2.5rem;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.directory-link:hover,
+.directory-link:focus-visible { color: var(--blue); text-decoration: underline; }
+
+.director-identity {
+  display: grid;
+  grid-template-columns: clamp(6rem, 15vw, 12.5rem) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1rem, 3.3vw, 3rem);
+  margin-top: .75rem;
+}
+
+.director-portrait {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 1px;
+}
+
+.director-heading .director-role {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  margin: 0 0 .5rem;
+  font-size: .79rem;
+  font-weight: 630;
+  color: var(--body);
+}
+.director-role::before { content: ""; width: 1.35rem; height: 2px; background: currentColor; }
+
+.director-heading .director-intro {
+  max-width: 43ch;
+  margin-top: .65rem;
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.director-section { max-width: 56rem; border-bottom: 1px solid var(--line); }
+.director-section summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  cursor: pointer;
+  color: var(--navy);
+  list-style: none;
+  font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+  font-weight: 610;
+  letter-spacing: -.025em;
+}
+
+.director-section summary::-webkit-details-marker { display: none; }
+.director-section h2 { color: inherit; font: inherit; letter-spacing: inherit; }
+.director-section summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.director-section summary:hover { color: var(--teal-text); }
+.director-section summary::after {
+  content: "";
+  flex: none;
+  width: .48rem;
+  height: .48rem;
+  margin-inline-end: .35rem;
+  border: solid var(--teal-text);
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+
+.director-section[open] summary::after { transform: rotate(225deg); }
+.director-section ul {
+  display: grid;
+  gap: .45rem;
+  padding: 0 0 1.25rem 1.25rem;
+  list-style: disc;
+  overflow-wrap: anywhere;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+.director-section li::marker { color: #739b9d; font-size: .8em; }
+.director-section a { color: var(--teal-text); text-decoration: underline; text-underline-offset: .15em; }
+.director-section .section-links { padding-bottom: 1rem; overflow-wrap: anywhere; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .director-identity { animation: enter-row .42s ease-out; }
+  .director-section summary::after { transition: transform .18s ease-out; }
+}

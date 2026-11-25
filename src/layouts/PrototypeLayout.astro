@@ -1,0 +1,22 @@
+---
+// Page frame for pages that still use the first prototype design
+// (alumni, student profiles, projects, news & media, courses, 404).
+import A from '../components/A.astro';
+import Footer from '../components/Footer.astro';
+import Logo from '../components/Logo.astro';
+import { NAV, u } from '../lib/site';
+
+interface Props {
+  title: string;
+  active?: string;
+  description?: string;
+  /** Breadcrumb trail after "Home"; an item without href is the current page. */
+  crumbs?: { label: string; href?: string }[];
+}
+const { title, active = '', description = 'Information Management Lab at Ewha Womans University', crumbs } = Astro.props;
+---
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{`${title} | IMLab`}</title><meta name="description" content={description}><link rel="stylesheet" href={u('assets/design/fonts/face.css')}><link rel="stylesheet" href={u('assets/site.css')}><link rel="stylesheet" href={u('assets/nav-preview.css')}><link rel="stylesheet" href={u('assets/footer.css')}><script is:inline src={u('assets/site.js')} defer></script><script is:inline src={u('assets/nav-preview.js')} defer></script></head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner container"><a class="brand" href={u('')} aria-label="IMLab Home" aria-current={active === 'home' ? 'page' : undefined}><Logo /></a><button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" type="button">Menu</button><nav class="site-nav" id="site-nav" aria-label="Main navigation">{NAV.map(([key, label]) => <a href={u(`${key}/`)} aria-current={key === active ? 'page' : undefined}><span>{label}</span></a>)}</nav></div></header>
+<main id="main" class="container">{crumbs && <nav class="breadcrumbs" aria-label="Breadcrumb"><A href="">Home</A>{crumbs.map((crumb) => <> / {crumb.href ? <A href={crumb.href}>{crumb.label}</A> : <span aria-current="page">{crumb.label}</span>}</>)}</nav>}<slot /></main><Footer /></body></html>

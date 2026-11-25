@@ -1,0 +1,7 @@
+---
+// Section with a heading column; a "\n" in the title becomes a line break.
+interface Props { title: string; id: string }
+const { title, id } = Astro.props;
+const lines = title.split('\n');
+---
+<section class="section people-section" id={id}><div class="section-heading"><h2>{lines.map((line, i) => <>{i > 0 && <br />}{line}</>)}</h2></div><div class="people-section-body"><slot /></div></section>

@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import FilterTabs from '../../components/FilterTabs.astro';
+import NoResults from '../../components/NoResults.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import { getList } from '../../lib/site';
+
+const projects = await getList('projects');
+---
+<Layout title="Projects" active="projects">
+<PageHeading title="Projects" intro="Explore our current and past research projects." />
+<section data-filter-list aria-label="Projects by status"><FilterTabs groups={[{ key: 'status', label: 'Status', options: [['current', 'Current Projects'], ['past', 'Past Projects']] }]} items={projects} /><div class="grid project-list">{projects.map((p) => <ProjectCard project={p} />)}</div><NoResults /></section>
+</Layout>

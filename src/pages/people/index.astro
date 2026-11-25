@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/DesignedLayout.astro';
+import A from '../../components/A.astro';
+import ListingHeading from '../../components/ListingHeading.astro';
+import PeopleSection from '../../components/PeopleSection.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { getContact, getPeople, u } from '../../lib/site';
+
+const people = await getPeople();
+const contact = await getContact();
+const director = people.find((p) => p.group === 'director')!;
+const graduates = people.filter((p) => p.group === 'graduate');
+const alumniCount = people.filter((p) => p.group.startsWith('alumni-')).length;
+const directory = [
+  [u(`people/${director.id}/`), 'Director', people.filter((p) => p.group === 'director').length],
+  ['#graduate-students', 'Graduate Students', graduates.length],
+  [u('people/alumni/'), 'Alumni', alumniCount],
+] as const;
+---
+<Layout title="People" section="people">
+<ListingHeading title="People" intro="Meet the people at IMLab">
+  <nav class="directory-index" aria-label="People directory">{directory.map(([href, title, size]) => <a href={href}>{title}<span class="directory-count">{size}</span></a>)}</nav>
+</ListingHeading>
+<div class="page-content wrap">
+  <PeopleSection title="Director" id="director">{people.filter((p) => p.group === 'director').map((p) => <PersonCard person={p} labEmail={contact.email} />)}</PeopleSection>
+  <PeopleSection title={'Graduate\nStudents'} id="graduate-students"><div class="people-list">{graduates.map((p) => <PersonCard person={p} labEmail={contact.email} />)}</div></PeopleSection>
+  <PeopleSection title="Alumni" id="alumni"><p>Meet our alumni and former lab members</p><p><A href="people/alumni/" class="button button-secondary">Graduate · Undergraduate Alumni →</A></p></PeopleSection>
+  <PeopleSection title={'Prospective\nMembers'} id="prospective-members"><p>We’d love to hear from students and researchers interested in working with us.</p><p><A href="/#contact" class="button">Contact the lab</A></p></PeopleSection>
+</div>
+</Layout>

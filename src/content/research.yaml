@@ -1,0 +1,37 @@
+# Research areas, in display order.
+# match_pattern: regular expression (case-insensitive) used to link projects and publications to this area.
+- id: human-ai
+  title: Human Modeling and Human-AI Interactions
+  summary: Understanding people and their interactions with AI.
+  description: We model people through their behavior, opinions, and feedback to study how humans and AI work together. Our topics include persona-based social simulation, metacognitive Agent-in-the-Loop systems, explainable AI, and user preferences.
+  topics:
+  - Social Simulation through Synthetic Society
+  - Metacognitive AitL with Dynamic Feedback Adaptation
+  - Collaborative AI (Transfer Learning and Explainable AI)
+  - Deep Learning Based Human Modeling - Rating Prediction
+  - Text Analysis - Aspect Based Sentiment Analysis, Opinion Triplet Extraction
+  illustration: /assets/design/research/human-ai.webp
+  illustration_alt: A model courtyard with pedestrians and paths tracing their movements
+  match_pattern: persona|social simulation|human|feedback|explainab|metacogn|AitL|agent.in.the.loop|사용자|인간|페르소나|사회 시뮬|메타인지|피드백|HCI|UX|opinion|sentiment|user preference
+- id: fashion-tech
+  title: Fashion Tech driven by VLM
+  summary: Applying AI to fashion generation, evaluation, and recommendation.
+  description: We use vision-language models to generate, evaluate, and iteratively refine fashion images. Our work also explores conversational recommendation, AI sales assistants, and storytelling grounded in fashion product attributes.
+  topics:
+  - Fashion Image (e.g., GMP) Generation, Evaluation, and Self-Refine
+  - AI Sales Assistant (Agent)
+  - Fashion Storytelling for Selling
+  illustration: /assets/design/research/fashion-tech.webp
+  illustration_alt: A dress form, cutting table and digital garment display in a fashion studio
+  match_pattern: fashion|garment|VLM|clothing|textile|storytelling|패션|의류|이커머스|e-commerce|crowdfunding|크라우드|스타일|style classification
+- id: smart-manufacturing
+  title: Smart Manufacturing
+  summary: Understanding and improving manufacturing through data.
+  description: We study causal relationships in manufacturing processes, equipment failure patterns, and combinatorial optimization for quality improvement. Our work draws on manufacturing data and unstructured records to address practical production challenges.
+  topics:
+  - Causality Analysis
+  - Combination Optimization
+  - Error Pattern Detection
+  illustration: /assets/design/research/smart-manufacturing.webp
+  illustration_alt: A conveyor carrying machined parts through a visual inspection station
+  match_pattern: manufactur|assembly|lens|facility|facilities|shop.floor|causal|제조|공정|조립|설비|렌즈|인과

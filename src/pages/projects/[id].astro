@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import Pending from '../../components/Pending.astro';
+import Prose from '../../components/Prose.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import Section from '../../components/Section.astro';
+import SourceLinks from '../../components/SourceLinks.astro';
+import { getList, LABELS, projectTitle, type Project } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const projects = await getList('projects');
+  return projects.map((project) => ({ params: { id: project.id }, props: { project } }));
+}
+
+const { project } = Astro.props as { project: Project };
+const title = projectTitle(project);
+// Publications that cite this project's abbreviation, e.g. "(GRRC)".
+const codes = [...project.text.matchAll(/\(([A-Za-z][A-Za-z0-9가-힣-]*)\)/g)].map((m) => m[1]);
+const publications = (await getList('publications')).filter((pub) => codes.some((code) => pub.text.includes(`(${code})`)));
+const needsCheck = /11[.\-/]31|\(\?\)/.test(project.text);
+---
+<Layout title={title} active="projects" crumbs={[{ label: 'Projects', href: 'projects/' }, { label: 'Project Detail' }]}>
+<PageHeading title={title} eyebrow={LABELS[project.status]} />
+<Section title="Project Information" id="information">{project.affiliation && <p class="meta">Affiliation: {project.affiliation}</p>}<p>{project.text}</p><SourceLinks links={project.links} /></Section>
+{needsCheck && <Prose text="A date or notation in the source record needs verification." class="notice" />}
+<Section title="Overview" id="overview"><Pending title="Project description" text="The project background, objectives, research, and results will appear here." /></Section>
+{publications.length > 0 && <Section title="Related Publications" id="related-publications"><p class="source-note">These publications cite the project abbreviation.</p><PublicationList publications={publications} /></Section>}
+</Layout>

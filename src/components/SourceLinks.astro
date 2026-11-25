@@ -1,0 +1,7 @@
+---
+import A from './A.astro';
+import { webLinks, type Link } from '../lib/site';
+interface Props { links?: Link[] }
+const links = webLinks(Astro.props.links);
+---
+{links.length > 0 && <div class="section-links">{links.map((entry) => <><A href={entry.url}>{entry.text || 'External resource'}</A>{' '}</>)}</div>}

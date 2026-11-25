@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/DesignedLayout.astro';
+import ResearchMark from '../components/ResearchMark.astro';
+import { addressLines, getContact, getList, getNews, LAB_INQUIRY_TEXT, LABELS, u } from '../lib/site';
+
+const research = await getList('research');
+const highlights = (await getNews()).slice(0, 5);
+const supporters = await getList('supporters');
+const contact = await getContact();
+const design = u('assets/design');
+---
+<Layout title="Home" section="home">
+<section class="hero" aria-labelledby="lab-name">
+  <div class="campus-ground" aria-hidden="true"><i></i><i></i></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="affiliation">Ewha Womans University</p>
+      <h1 id="lab-name"><span>Information</span> <span>Management <b>Lab.</b></span></h1>
+      <p class="lede">Understanding people and advancing applied AI through data</p>
+      <div class="hero-links">
+        <a class="action" href={u('research/')}>Explore research</a>
+        <a class="team-link" href={u('people/')}>Meet the team <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <figure class="campus-stage">
+      <div class="campus-drawing">
+        <img src={`${design}/ecc-linework.webp`} width="1152" height="768" fetchpriority="high"
+             alt="Line drawing of two students on the central walkway of the Ewha Campus Complex, between glass walls and rooftop gardens.">
+      </div>
+      <figcaption>Ewha Campus Complex</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="wrap section-split" id="research-areas" aria-labelledby="research-title">
+  <div class="section-intro">
+    <h2 id="research-title">Research Areas</h2>
+    <a class="text-link" href={u('research/')} aria-label="View all research areas">View all <span aria-hidden="true">→</span></a>
+  </div>
+  <ul class="area-list">{research.map((area) => (
+    <li><a href={u(`research/${area.id}/`)}><ResearchMark id={area.id} /><div class="research-summary"><h3>{area.title}</h3><p>{area.summary.replace(/\.$/, '')}</p></div><svg class="row-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 12h12m-4.5-4.5L18 12l-4.5 4.5"/></svg></a></li>
+  ))}</ul>
+</section>
+<section class="news-band" aria-labelledby="highlights-title">
+  <div class="wrap section-split" id="latest-news">
+    <div class="section-intro">
+      <h2 id="highlights-title">Highlights</h2>
+      <a class="text-link" href={u('news/')} aria-label="View all highlights">View all <span aria-hidden="true">→</span></a>
+    </div>
+    <ul class="news-list">{highlights.map((item) => (
+      <li><a href={u(`news/${item.id}/`)}><div class="news-meta"><span>{LABELS[item.category] ?? item.category}</span><time datetime={item.date}>{item.date}</time></div><p>{item.text}</p></a></li>
+    ))}</ul>
+  </div>
+</section>
+<div class="contact-band">
+  <section class="wrap section-split contact" id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contact</h2>
+    <div class="contact-details">
+      <p>{LAB_INQUIRY_TEXT}</p>
+      <a class="text-link" href={`mailto:${contact.email}`}>{contact.email}</a>
+      <address>
+        <p>{addressLines(contact.address).map((line, i) => <>{i > 0 && <br />}{line}</>)}</p>
+        <a class="text-link" href={contact.map_url}>View on map <span aria-hidden="true">↗</span></a>
+      </address>
+    </div>
+    <div class="contact-art" aria-hidden="true">
+      <img src={`${design}/pear-blossom-linework.webp`} alt="" width="600" height="400" loading="lazy" decoding="async">
+    </div>
+  </section>
+</div>
+<section class="wrap partners" id="supported-by" aria-labelledby="partners-title">
+  <h2 id="partners-title">Supported by</h2>
+  <ul class="partner-logos">{supporters.map((s) => (
+    <li>{s.image ? <img src={u(s.image)} alt={s.name} class="" loading="lazy" decoding="async" /> : s.name}</li>
+  ))}</ul>
+</section>
+</Layout>

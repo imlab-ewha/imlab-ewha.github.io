@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/DesignedLayout.astro';
+import Bullets from '../../components/Bullets.astro';
+import SentenceLines from '../../components/SentenceLines.astro';
+import { getList, sentenceParts, u } from '../../lib/site';
+
+const research = await getList('research');
+const intro = 'We study human behavior and feedback and explore applications of AI in fashion and manufacturing. Discover the topics, projects, and publications connected to each research area';
+---
+<Layout title="Research Areas" section="research">
+<header class="listing-heading page-header">
+  <div class="wrap research-intro">
+    <h1>Research Areas</h1>
+    <p class="lead"><SentenceLines text={intro} /></p>
+  </div>
+</header>
+<div class="wrap page-content research-catalog">
+  {research.map((area) => (
+    <section class="research-area-row" id={area.id} aria-labelledby={`${area.id}-title`}>
+      <div class="research-figure"><img class="area-illustration" src={u(area.illustration)} alt={area.illustration_alt} width="1536" height="1024" decoding="async" /></div>
+      <div class="research-area-copy">
+        <h2 id={`${area.id}-title`}>{area.title}</h2>
+        <p class="area-introduction">{sentenceParts(area.description)[0]}</p>
+        <h3 class="topics-label">Research topics</h3>
+        <Bullets items={area.topics} class="research-topics" />
+        <a class="area-detail-link" href={u(`research/${area.id}/`)} aria-label={`View details about ${area.title}`}>View details</a>
+      </div>
+    </section>
+  ))}
+</div>
+</Layout>

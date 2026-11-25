@@ -1,0 +1,8 @@
+---
+import A from './A.astro';
+import Badge from './Badge.astro';
+import { LABELS, projectTitle, type Project } from '../lib/site';
+interface Props { project: Project }
+const { project } = Astro.props;
+---
+<article class="card" data-item data-search-text={project.text} data-category="" data-year="" data-status={project.status} data-affiliation={project.affiliation}><div class="meta"><Badge text={LABELS[project.status]} />{project.affiliation && <Badge text={project.affiliation} />}</div><h3><A href={`projects/${project.id}/`}>{projectTitle(project)}</A></h3><p>{project.text}</p></article>

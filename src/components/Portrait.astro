@@ -1,0 +1,8 @@
+---
+import { u } from '../lib/site';
+interface Props { src?: string; alt: string; class?: string; eager?: boolean }
+const { src, alt, class: className, eager = false } = Astro.props;
+---
+{src
+  ? <img src={u(src)} alt={alt} class={className} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  : <div class="portrait placeholder">Photo pending</div>}

@@ -1,0 +1,7 @@
+---
+import Badge from './Badge.astro';
+import Prose from './Prose.astro';
+interface Props { title?: string; text: string }
+const { title, text } = Astro.props;
+---
+<div class="empty-state"><Badge text="Coming soon" kind="badge-pending" />{title && <h3>{title}</h3>}<Prose text={text} /></div>

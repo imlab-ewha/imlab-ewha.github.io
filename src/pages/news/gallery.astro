@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import NewsHeader from '../../components/NewsHeader.astro';
+import Pending from '../../components/Pending.astro';
+import Section from '../../components/Section.astro';
+
+const groups = [
+  ['lab-activities', 'Lab Activities', 'Photos and notes from lab seminars and study groups will appear here.'],
+  ['conferences', 'Conferences', 'Photos from conference visits and presentations will appear here.'],
+  ['events', 'Events', 'Photos from welcome parties, farewells, birthdays, and lab dinners will appear here.'],
+];
+---
+<Layout title="Gallery · News & Media" active="news">
+<NewsHeader active="gallery" intro="Life at IMLab, from lab activities to conferences and events." />
+<section class="tab-content" id="gallery" aria-label="Gallery">{groups.map(([id, title, text]) => <Section title={title} id={id}><Pending text={text} /></Section>)}</section>
+</Layout>

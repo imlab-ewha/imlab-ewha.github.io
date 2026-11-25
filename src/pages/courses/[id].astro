@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import Bullets from '../../components/Bullets.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import Section from '../../components/Section.astro';
+import { currentSemesterId, getList, type Course } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const courses = await getList('courses');
+  return courses.map((course) => ({ params: { id: course.id }, props: { course } }));
+}
+
+const { course } = Astro.props as { course: Course };
+---
+<Layout title={course.label} active="courses" crumbs={[{ label: 'Courses', href: 'courses/' }, { label: course.label }]}>
+<PageHeading title={course.label} eyebrow={course.id === currentSemesterId() ? 'Current Semester' : 'Course Archive'} /><Section title="Courses"><Bullets items={course.items} /></Section>
+</Layout>

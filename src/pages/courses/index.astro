@@ -1,0 +1,25 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import Badge from '../../components/Badge.astro';
+import Bullets from '../../components/Bullets.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import Pending from '../../components/Pending.astro';
+import Section from '../../components/Section.astro';
+import { currentSemesterId, getList, type Course } from '../../lib/site';
+
+const courses = await getList('courses');
+const currentId = currentSemesterId();
+const current = courses.find((c) => c.id === currentId);
+---
+<Layout title="Courses" active="courses">
+<PageHeading title="Courses" intro="Courses offered in the current and previous semesters." />
+{current
+  ? <Section title={`Current Semester · ${current.label}`} id="current-semester"><Bullets items={current.items} /><p><A href={`courses/${current.id}/`}>View semester details →</A></p></Section>
+  : <Section title="Current Semester" id="current-semester"><Pending title="Course list" text="Current courses will appear here when the semester schedule is confirmed." /></Section>}
+{[['Archive', 'archive', courses.slice(0, 4)], ['Previous Semesters', 'previous-semesters', courses.slice(4)]].map(([title, id, list]) => (
+  <Section title={title as string} id={id as string}><div class="grid grid-2">{(list as Course[]).map((c) => (
+    <article class="card"><h3><A href={`courses/${c.id}/`}>{c.label}</A></h3>{c.id === currentId && <Badge text="Current Semester" />}<p>{c.items.length} courses</p><Bullets items={c.items} /></article>
+  ))}</div></Section>
+))}
+</Layout>

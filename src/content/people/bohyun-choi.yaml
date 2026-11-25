@@ -1,0 +1,112 @@
+name: Bohyun Choi
+group: graduate
+order: 30
+image: /assets/images/person-bohyun-choi.png
+email: bohyun.choi0@gmail.com
+details:
+- Master Student, Artificial Intelligence Convergence, Ewha Womans University, 2025.09 -
+- Research Assistant, IMLab., 2023.02 -
+- B.S., Data Science, Seoul Women's University, 2025
+- 'Research Interest: Multimodal AI, AI Agent'
+- 'Email: bohyun.choi0@gmail.com'
+profile:
+- title: Profile
+  items:
+  - bohyun.choi0@gmail.com
+  links: []
+  item_links:
+  - []
+- title: Education
+  items:
+  - M.S., Artificial Intelligence Convergence, Ewha Womans University, 2025.09-
+  - B.S., Data Science, Seoul Women’s University, 2025 (Summa Cum Laude)
+  links: []
+  item_links:
+  - []
+  - []
+- title: Under review
+  items:
+  - 고스트 마네킹 이미지를 생성하는 전자 장치, 이의 동작 방법과 기록매체 최예림, 최보현 국내특허, 10-2025-0118454, 2025.08.25
+  links: []
+  item_links:
+  - []
+- title: Publications
+  items:
+  - Journal paper
+  - An omnichannel strategy development framework leveraging customer opinion divergence using large language models and explainable AI Bohyun Choi, Yeonbin Son (co-1st), and Yerim Choi* accepted for publication in Scientific Reports (SCIE, JCR Q1, 15%).
+  - A VLM-based Framework for Evaluating Garment Consistency in AI-Generated Images Based on DeLong’s Theory Hyeryun Park, Bohyun Choi, and Yerim Choi*, Fashion and Textile, vol. 13, no. 26, 2026.06.11 (SCIE, JCR Q1).
+  - (Invited) Enhancing Conversational Recommendation by Incorporating User Preferences on Intrinsic and Extrinsic Product Attributes Bohyun Choi, Gyulim Hahn, Jiyoun Park, and Yerim Choi* KIISE Transactions on Computing Practices (KCI), 2025.12
+  - Conference paper
+  - A Comparison of Externel Information Practice Methods in LLM-based Persona Agents for Social Simulation
+  - Gyulim Hahn, Hyunjung Kim, Jiyoun Park, Gyuri Kim, Bohyun Choi, Minyoung Sung, Chaeryn Jang, Inho Cho, Yerim Choi* Korea Computer Congress (KCC), 2026.06.24.
+  - (Best paper award) A Description Paragraph-Image Matching Methodology for Product Detail Pages Considering Semantic Coherence and Visual Diversity of Overall Combinations Gyuri Kim, Bohyun Choi, and Yerim Choi* Korean Society of Digital Industry, 2026.04
+  - 'HIVE: Human-in-the-Loop Framework for Explainable Recommender Systems with Veracity-Based Human Feedback Yeonbin Son, Bohyun Choi, Jiyoun Park, Yerim Choi, and Matthew Bolton* Conference on Information and Knowledge Management (CIKM), 2025.11'
+  - A Framework for E-Commerce Product Image Alignment Incorporating Visual Consistency and Expert-Driven Characteristics Jiyoun Park, Gyulim Hahn, Bohyun Choi, Minyoung Park, and Yerim Choi* Korean Institute of Industrial Engineers, 2025.11
+  - An LLM-based Storytelling Generation Agent for Fashion Crowdfunding Bohyun Choi, Jiyoun Park, Yerim Choi, and Hyoseon Ahn* The Korean Society of Clothing and Textiles, 2025.10
+  - (Best paper award) Enhancing Conversational Recommendation by Incorporating User Preferences on Intrinsic and Extrinsic Product Attributes Bohyun Choi, Gyulim Hahn, Jiyoun Park, and Yerim Choi* Korea Computer Congress (KCC), 2025.07
+  - (Best paper award) A Study on Extracting Storytelling Elements in Fashion Crowdfunding Using Generative Large Language Models Hyoseon Ahn, Bohyun Choi, Suji Kim, Hyeryeon Park, Seyoun Kim, Minjeong Park, and Yerim Choi* The Society of Fashion and Textile Industry, 2024.11
+  - A Framework for Typifying Characteristics of Popular YouTube Channels through Feature-Customized Modeling Bohyun Choi, Goeun Kim, Miran Moon, Naye Park, Eunji Jeong, Kyuhyun Chae, and Yerim Choi* Korea HCI, 2024.01
+  links: []
+  item_links:
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+- title: Experiences
+  items:
+  - AI Intern, Samsung Security, Seoul, Korea, 2023.12-2024.06
+  links: []
+  item_links:
+  - []
+- title: Invited Talks
+  items:
+  - Unstructured Data Analysis, Ewha Womans University, 2026.09.07
+  - Data Engineering, Ewha Womans University, 2026.05.27
+  - Data Engineering, Ewha Womans University, 2026.04.17
+  - Data Engineering, Ewha Womans University, 2026.04.15
+  - Fashion Crowdfunding Storytelling Generation Using LLM, Pai Chai University, 2025.11.25
+  - Fashion Crowdfunding Storytelling Generation Using LLM, Ewha Womans University, 2025.11.19
+  - Introduction to AI and DS, Ewha Womans University, 2025.10.29
+  - Unstructured Data Analysis, Ewha Womans University, 2025.09.30
+  - Fashion Crowdfunding Storytelling Dashboard Using LLM, Pai Chai University, 2025.09.17
+  - Unstructured Data Analysis, Ewha Womans University, 2025.09.11
+  - DSOB, Seoul Women's University, 2025.04.30
+  - Exploration of the Data Science Major, Seoul Women's University, 2025.04.17
+  - Data Science Capstone Design II, Seoul Women's University, 2024.09.12
+  - Exploration of the Data Science Major, Seoul Women's University, 2024.05.30
+  links: []
+  item_links:
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+- title: Teaching
+  items:
+  - Teacher Assistant Data Engineering, Spring, 2026 Unstructured Data Analysis, Fall, 2025
+  - Data Science Capstone Design II, Fall, 2024
+  - Python Programming, Spring, 2022
+  links: []
+  item_links:
+  - []
+  - []
+  - []

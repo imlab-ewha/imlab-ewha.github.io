@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import { getNews, LABELS, type News } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const news = await getNews();
+  return news.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: News };
+const label = LABELS[item.category];
+---
+<Layout title={`${item.date} · ${label}`} active="news" crumbs={[{ label: 'News & Media', href: 'news/' }, { label: item.date }]}>
+<PageHeading title={label} eyebrow={item.date} /><article class="section"><p class="lead">{item.text}</p></article><div class="section-links"><A href="news/" class="button button-secondary">Back to highlights</A>{item.category === 'papers' && <A href="publications/" class="button button-secondary">View publications</A>}{item.original_category.toLowerCase() === 'grant' && <A href="projects/?status=current" class="button button-secondary">View current projects</A>}</div>
+</Layout>

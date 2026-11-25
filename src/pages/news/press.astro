@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import NewsHeader from '../../components/NewsHeader.astro';
+import Prose from '../../components/Prose.astro';
+import { collectPress, getList, getPeople } from '../../lib/site';
+
+// These source links describe official documents or events; they stay in their
+// original profiles and projects rather than being labeled as coverage.
+const OTHER_SOURCES = new Set(['moef.go.kr', 'www.moef.go.kr', 'korea.kr', 'www.korea.kr', 'jeju.dlcamp.org']);
+const hostname = (url: string) => { try { return new URL(url).hostname; } catch { return ''; } };
+const press = collectPress(await getList('projects'), await getPeople()).filter((p) => !OTHER_SOURCES.has(hostname(p.url)));
+const articles = press.map((p) => ({
+  url: p.url,
+  title: (p.title || '').replace(/\(\s*https?:\/\/[^\s)]+\s*\)/g, '').trim().replace(/^[ ,]+|[ ,]+$/g, '') || 'Read article',
+  outlet: hostname(p.url).replace(/^www\./, ''),
+  context: p.context,
+}));
+---
+<Layout title="Media Coverage · News & Media" active="news">
+<NewsHeader active="press" intro="Media coverage of our research and lab members." />
+<section class="tab-content" id="press" aria-label="Media Coverage"><Prose text="Articles about our research and lab members. Open a link to read the original coverage." class="source-note" /><ul class="content-list">{articles.map((a) => <li><A href={a.url}>{a.title}</A><p class="meta">{a.outlet} · {a.context}</p></li>)}</ul></section>
+</Layout>

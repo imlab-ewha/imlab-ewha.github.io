@@ -1,0 +1,8 @@
+---
+// Page title block for prototype-design pages.
+import SentenceLines from './SentenceLines.astro';
+interface Props { title: string; intro?: string; eyebrow?: string }
+const { title, intro = '', eyebrow = '' } = Astro.props;
+const lead = intro.trimEnd().replace(/\.+$/, '');
+---
+<div class="page-header">{eyebrow && <p class="eyebrow">{eyebrow}</p>}<h1>{title}</h1>{lead && <p class="lead"><SentenceLines text={lead} /></p>}</div>

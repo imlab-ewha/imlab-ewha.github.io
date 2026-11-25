@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/PrototypeLayout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import { u } from '../lib/site';
+---
+<Layout title="Page not found">
+<PageHeading title="Page not found" intro="Check the address or return to the homepage." /><p><a class="button" href={u('')}>Home</a></p>
+</Layout>

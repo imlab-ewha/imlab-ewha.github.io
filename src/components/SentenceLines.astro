@@ -1,0 +1,6 @@
+---
+import { sentenceParts } from '../lib/site';
+interface Props { text: string }
+const parts = sentenceParts(Astro.props.text);
+---
+<span class="sentence-lines">{parts.map((part) => <span class="sentence">{part}</span>)}</span>

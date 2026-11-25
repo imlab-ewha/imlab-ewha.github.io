@@ -1,0 +1,23 @@
+---
+// One profile section of the director page. Source wording is kept; URLs inside a
+// record become links, and links not found in any record are listed below.
+import A from './A.astro';
+import SourceLinks from './SourceLinks.astro';
+import { isExternal, type ProfileSection } from '../lib/site';
+interface Props { section: ProfileSection; email: string }
+const { section, email } = Astro.props;
+const links = new Map(section.links.filter((entry) => isExternal(entry.url)).map((entry) => [entry.url, entry]));
+const escaped = [...links.keys()].sort((a, b) => b.length - a.length).map((url) => url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+const pattern = escaped.length ? new RegExp(`(${escaped.join('|')})`) : null;
+const linked = new Set<string>();
+const rows = section.items.map((record) => {
+  if (email && record === `Email: ${email}`) return { email: true, parts: [] as string[] };
+  const parts = pattern ? record.split(pattern) : [record];
+  parts.forEach((part, i) => { if (i % 2 === 1) linked.add(part); });
+  return { email: false, parts };
+});
+const otherLinks = [...links.values()].filter((entry) => !linked.has(entry.url));
+---
+<ul>{rows.map((row) => <li>{row.email
+  ? <>Email: <A href={`mailto:${email}`}>{email}</A></>
+  : row.parts.map((part) => links.has(part) ? <A href={part}>{part}</A> : part)}</li>)}</ul><SourceLinks links={otherLinks} />

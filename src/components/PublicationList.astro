@@ -1,0 +1,22 @@
+---
+import A from './A.astro';
+import Badge from './Badge.astro';
+import SourceLinks from './SourceLinks.astro';
+import { LABELS, publicationSubtype, type Publication } from '../lib/site';
+interface Props { publications: Publication[]; filtering?: boolean; linkToIndex?: boolean }
+const { publications, filtering = false, linkToIndex = false } = Astro.props;
+const filterAttrs = (pub: Publication) => filtering ? {
+  'data-item': '', 'data-search-text': pub.text, 'data-category': pub.category,
+  'data-year': pub.year ?? '', 'data-status': pub.status, 'data-affiliation': '',
+} : {};
+---
+<ul class="publication-list">{publications.map((pub) => {
+  const subtype = publicationSubtype(pub);
+  return (
+    <li class="publication-item" id={pub.id} {...filterAttrs(pub)}>
+      <div class="meta"><Badge text={LABELS[pub.category] ?? pub.category} />{subtype && <> <Badge text={subtype} /></>} <Badge text={LABELS[pub.status] ?? pub.status} />{pub.year && <span>{pub.year}</span>}</div>
+      <p>{linkToIndex ? <A href={`publications/#${pub.id}`}>{pub.text}</A> : pub.text}</p>
+      <SourceLinks links={pub.links} />
+    </li>
+  );
+})}</ul>

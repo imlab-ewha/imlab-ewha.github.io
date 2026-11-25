@@ -1,0 +1,13 @@
+---
+import PageHeading from './PageHeading.astro';
+import { u } from '../lib/site';
+interface Props { active: string; intro: string }
+const { active, intro } = Astro.props;
+const tabs = [
+  ['highlights', 'Highlights', 'news/'],
+  ['press', 'Media Coverage', 'news/press/'],
+  ['talks', 'Talks & Presentations', 'news/talks/'],
+  ['gallery', 'Gallery', 'news/gallery/'],
+];
+---
+<PageHeading title="News & Media" intro={intro} /><nav class="section-tabs" aria-label="News & Media sections">{tabs.map(([key, label, target]) => <a href={u(target)} aria-current={key === active ? 'page' : undefined}>{label}</a>)}</nav>

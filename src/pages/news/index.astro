@@ -1,0 +1,19 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import Badge from '../../components/Badge.astro';
+import NewsHeader from '../../components/NewsHeader.astro';
+import NoResults from '../../components/NoResults.astro';
+import { getNews, LABELS } from '../../lib/site';
+
+const news = await getNews();
+const categories = ['awards', 'papers', 'updates'].map((k) => [k, LABELS[k]]);
+const years = [...new Set(news.map((n) => n.date.slice(0, 4)))].sort().reverse().map((y) => [y, y]);
+const filters = [['category', 'Category', categories], ['year', 'Year', years]] as const;
+---
+<Layout title="Highlights · News & Media" active="news">
+<NewsHeader active="highlights" intro="Research milestones, awards, and updates from IMLab." />
+<section class="tab-content" id="news" aria-label="Highlights"><section data-filter-list aria-label="Highlights by category and year"><form class="filters" data-js-only aria-label="Filter highlights">{filters.map(([key, label, options]) => <label class="filter-control">{label}<select data-filter={key}><option value="">All</option>{options.map(([v, t]) => <option value={v}>{t}</option>)}</select></label>)}<button class="button button-secondary" type="button" data-reset-filters>Reset filters</button></form><p class="result-count" data-result-count aria-live="polite" data-js-only></p><div class="news-list">{news.map((n) => (
+  <article class="news-item" data-item data-search-text={n.text} data-category={n.category} data-year={n.date.slice(0, 4)} data-status="" data-affiliation=""><div class="meta"><Badge text={LABELS[n.category] ?? n.category} /> <time class="date" datetime={n.date}>{n.date}</time></div><h3><A href={`news/${n.id}/`}>{n.text}</A></h3></article>
+))}</div><NoResults /></section></section>
+</Layout>

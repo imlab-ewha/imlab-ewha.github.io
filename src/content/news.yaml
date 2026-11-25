@@ -1,0 +1,102 @@
+# News highlights. Listed newest first by date; items with the same date keep this file order.
+# category: awards | papers | updates
+- id: news-9697446acf
+  date: 2026-09
+  category: papers
+  original_category: Research
+  text: Our paper on an omnichannel strategy development framework leveraging customer opinion divergence has been accepted for publication in Scientific Reports (JCR Q1). Congrats!
+- id: news-e14da01f78
+  date: 2026-09
+  category: updates
+  original_category: People
+  text: Jimin joined our lab as a master student. Welcome!
+- id: news-36f5000ca6
+  date: 2026-05
+  category: papers
+  original_category: Research
+  text: Our paper on VLM based garment consistency evaluator has been accepted for publication in FATE (JCR Q1). Congrats!
+- id: news-cb16a90173
+  date: 2026-04
+  category: awards
+  original_category: Award
+  text: Gyuri and Bohyun received the Best Paper Award at Calsec 2026. Congrats!
+- id: news-1780b1983b
+  date: 2026-04
+  category: awards
+  original_category: Award
+  text: Bohyun, Jiyoun, and Chaeryn received the Best Paper Award at Data Science Open Lab. Congrats!
+- id: news-ffe9f89b2f
+  date: 2026-03
+  category: updates
+  original_category: Grant
+  text: We have been awarded the NRF Young Researcher Program grant on metacognition-based adaptive Agent-in-the-Loop optimization (2026–2029). Congrats!
+- id: news-b7bf102cb5
+  date: 2026-01
+  category: updates
+  original_category: People
+  text: Chaeryn and Minseon joined our lab as undergraduate RAs. Welcome!
+- id: news-cbde85a241
+  date: 2025-12
+  category: papers
+  original_category: Research
+  text: Our paper on exploiting local details for fashion style classification has been accepted for publication in ESWA (JCR Q1, 7%). Congrats!
+- id: news-ad64a8d96d
+  date: 2025-11
+  category: awards
+  original_category: Award
+  text: Hyunjung and Gyulim received the Best Paper Award at Calsec 2025. Congrats!
+- id: news-48c7fef4a2
+  date: 2025-10
+  category: papers
+  original_category: Research
+  text: One paper has been accepted to CIKM2025 workshop (poster). Congrats!
+- id: news-b81aaccdfd
+  date: 2025-09
+  category: updates
+  original_category: People
+  text: Gyuri Kim joined our lab as a undergraduate RA. Welcome!
+- id: news-3b9d6e2a79
+  date: 2025-08
+  category: updates
+  original_category: People
+  text: Hyunjung Kim (master student) and Hannah Lee (undergraduate RA) joined our lab. Welcome!
+- id: news-9c623cf716
+  date: 2025-07
+  category: papers
+  original_category: Research
+  text: Our paper on FEA Based CRS has been accepted for publication in FATE (JCR Q1). Congrats!
+- id: news-b673af0016
+  date: 2025-07
+  category: awards
+  original_category: Award
+  text: Bohyun, Gyulim, and Jiyoun received the Best Paper Award at KCC2025. Congrats!
+- id: news-7c9a60ac8a
+  date: 2025-06
+  category: updates
+  original_category: People
+  text: Bohyun Choi and Gyulim joined our lab as master students. Welcome!
+- id: news-fd7493db9e
+  date: 2025-05
+  category: papers
+  original_category: Research
+  text: One paper has been accepted to KCC2025 (oral). Congratulations to Bohyun, Gyulim, and Jiyoun!
+- id: news-5df9ae5650
+  date: 2025-05
+  category: papers
+  original_category: Research
+  text: Our paper on Data-Driven Policy Strategy Making has been accepted for publication in IEEE Access (JCR Q2). Congrats!
+- id: news-6ef0197957
+  date: 2025-05
+  category: updates
+  original_category: People
+  text: Sangyeon Lee and Minyoung Sung joined our lab as undergraduate RAs. Welcome!
+- id: news-a47d5aca87
+  date: 2025-03
+  category: updates
+  original_category: People
+  text: Jiyoun Park joined our lab as a master student. Welcome!
+- id: news-440982e60b
+  date: 2025-03
+  category: updates
+  original_category: News
+  text: imlab@ewha has opened 🎉

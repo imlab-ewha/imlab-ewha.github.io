@@ -1,0 +1,12 @@
+---
+// Filter buttons read by assets/site.js. Counts are filled in again by the script.
+interface Group { key: string; label: string; options: [string, string][] }
+interface Props { groups: Group[]; items: Record<string, unknown>[] }
+const { groups, items } = Astro.props;
+const count = (key: string, value: string) => value ? items.filter((item) => String(item[key] ?? '') === value).length : items.length;
+---
+<div class="filter-tabs" data-js-only>{groups.map(({ key, label, options }) => (
+  <fieldset class="filter-group"><legend>{label}</legend><div class="filter-options">{[['', 'All'], ...options].map(([value, title]) => (
+    <button type="button" class="filter-tab" data-filter-key={key} data-filter-value={value} aria-pressed={value ? 'false' : 'true'}>{title} <span class="filter-tab-count">{count(key, value)}</span></button>
+  ))}</div></fieldset>
+))}</div><p class="result-count" data-result-count aria-live="polite" data-js-only></p>

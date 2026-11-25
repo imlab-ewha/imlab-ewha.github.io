@@ -1,0 +1,173 @@
+# Courses by semester, newest first. id must be <season>-<year>, e.g. fall-2026.
+- id: fall-2026
+  label: Fall 2026
+  year: 2026
+  season: fall
+  items:
+  - 39218 비정형데이터분석
+  - G18876 고급추천시스템
+- id: spring-2026
+  label: Spring 2026
+  year: 2026
+  season: spring
+  items:
+  - 39216 데이터엔지니어링
+  - G18867 고급데이터엔지니어링
+- id: fall-2025
+  label: Fall 2025
+  year: 2025
+  season: fall
+  items:
+  - 39218 비정형데이터분석
+  - G18876 고급추천시스템
+- id: spring-2025
+  label: Spring 2025
+  year: 2025
+  season: spring
+  items:
+  - 39199-01,02 확률과통계
+  - 39216 데이터엔지니어링
+- id: fall-2024
+  label: Fall 2024
+  year: 2024
+  season: fall
+  items:
+  - DT00007 데이터전처리
+  - DT00014 파이썬을이용한데이터사이언스
+  - DT00025 데이터사이언스캡스톤디자인II
+- id: spring-2024
+  label: Spring 2024
+  year: 2024
+  season: spring
+  items:
+  - DT00001 데이터사이언스개론
+  - DT00004 데이터사이언스전공탐색
+  - DT00028 소프트웨어역량인증 / DT00029 졸업인증
+  - DT00032 산학연계프로젝트
+- id: fall-2023
+  label: Fall 2023
+  year: 2023
+  season: fall
+  items:
+  - DT00004 데이터사이언스전공탐색
+  - DT00007 데이터전처리
+  - DT00014 파이썬을이용한데이터사이언스
+  - DT00024 데이터사이언스진로탐색
+  - DT00025 데이터사이언스캡스톤디자인II
+- id: spring-2023
+  label: Spring 2023
+  year: 2023
+  season: spring
+  items:
+  - DT00001 데이터사이언스개론
+- id: fall-2022
+  label: Fall 2022
+  year: 2022
+  season: fall
+  items:
+  - DT00004 데이터사이언스전공탐색
+  - DT00005-01 데이터사이언스캡스톤디자인I
+  - DT00007 데이터전처리
+  - DT00014 파이썬을이용한데이터사이언스
+- id: spring-2022
+  label: Spring 2022
+  year: 2022
+  season: spring
+  items:
+  - DT00001-01, -02 데이터사이언스개론
+  - 2382095/DT00038 빅데이터와 전자상거래
+- id: fall-2021
+  label: Fall 2021
+  year: 2021
+  season: fall
+  items:
+  - DT00004 데이터사이언스전공탐색
+  - DT00005-01 데이터사이언스캡스톤디자인I
+  - DT00007-01, -02 데이터전처리
+- id: spring-2021
+  label: Spring 2021
+  year: 2021
+  season: spring
+  items:
+  - DT00001-01, DT00001-02 데이터사이언스개론
+  - 2382091-01 데이터사이언스파이프라인
+- id: fall-2020
+  label: Fall 2020
+  year: 2020
+  season: fall
+  items:
+  - DS01005 빅데이터 분석과 활용
+  - DS01006 데이터분석을 위한 프로그래밍
+- id: spring-2020
+  label: Spring 2020
+  year: 2020
+  season: spring
+  items:
+  - 1521, 2290 인간공학개론
+  - 0087 경영정보시스템(석사)
+  - 0092 인간-기계시스템(박사)
+- id: fall-2019
+  label: Fall 2019
+  year: 2019
+  season: fall
+  items:
+  - 1520, 1521 프로그래밍응용
+  - 1537 제품설계및개발
+  - 1517 산업경영공학개론
+- id: spring-2019
+  label: Spring 2019
+  year: 2019
+  season: spring
+  items:
+  - 0300, 0304 프로그래밍기초와실습
+  - 0197 다변량분석(석박통합)
+- id: fall-2018
+  label: Fall 2018
+  year: 2018
+  season: fall
+  items:
+  - 1462, 1977 프로그래밍응용
+  - 1982 제품설계및개발
+  - 1972 산업경영공학개론
+  - 2119 산업경영공학개별진로연구
+- id: spring-2018
+  label: Spring 2018
+  year: 2018
+  season: spring
+  items:
+  - 1286, 1822 인간공학및실험
+  - 0195 경영정보시스템(딥러닝특강, 대학원)
+- id: fall-2017
+  label: Fall 2017
+  year: 2017
+  season: fall
+  items:
+  - 1258, 1761 제품설계및개발
+  - 1249, 1754 프로그래밍응용
+  - 2008 산업경영공학개별진로연구
+- id: spring-2017
+  label: Spring 2017
+  year: 2017
+  season: spring
+  items:
+  - 1885 산업경영공학종합설계
+  - 1878, 2662 인간공학및실험
+  - 1869, 1870, 1871 산업경영공학전공및진로탐색
+- id: fall-2015
+  label: Fall 2015
+  year: 2015
+  season: fall
+  items:
+  - 18224 공학수학(at SKU)
+- id: spring-2015
+  label: Spring 2015
+  year: 2015
+  season: spring
+  items:
+  - 406.212 산업컴퓨팅개론(at SNU)
+- id: spring-2014
+  label: Spring 2014
+  year: 2014
+  season: spring
+  items:
+  - 035.001 컴퓨터의개념및실습(at SNU)

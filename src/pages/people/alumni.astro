@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import PageHeading from '../../components/PageHeading.astro';
+import PeopleSection from '../../components/PeopleSection.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { getPeople } from '../../lib/site';
+
+const people = await getPeople();
+const groups = [['alumni-graduate', 'Graduate'], ['alumni-undergraduate', 'Undergraduate']] as const;
+---
+<Layout title="Alumni" active="people" crumbs={[{ label: 'People', href: 'people/' }, { label: 'Alumni' }]}>
+<PageHeading title="Alumni" intro="Our alumni and former lab members." />
+{groups.map(([group, title]) => (
+  <PeopleSection title={title} id={group}><div class="people-list">{people.filter((p) => p.group === group).map((p) => <PersonCard person={p} />)}</div></PeopleSection>
+))}
+</Layout>

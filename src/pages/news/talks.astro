@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/PrototypeLayout.astro';
+import A from '../../components/A.astro';
+import Bullets from '../../components/Bullets.astro';
+import NewsHeader from '../../components/NewsHeader.astro';
+import { collectTalks, getPeople } from '../../lib/site';
+
+const talks = collectTalks(await getPeople());
+const speakers = [...new Set(talks.map((t) => t.speaker))];
+---
+<Layout title="Talks & Presentations · News & Media" active="news">
+<NewsHeader active="talks" intro="Invited talks and presentations by our lab members." />
+<section class="tab-content" id="talks" aria-label="Talks & Presentations">{speakers.map((speaker) => {
+  const items = talks.filter((t) => t.speaker === speaker);
+  return <div><h3>{speaker}</h3><Bullets items={items.map((t) => t.text)} /><p><A href={`people/${items[0].person}/`}>Speaker profile →</A></p></div>;
+})}<p><A href="publications/?category=conference">Browse conference publications →</A></p></section>
+</Layout>

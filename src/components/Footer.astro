@@ -1,0 +1,32 @@
+---
+import A from './A.astro';
+import Logo from './Logo.astro';
+import { getContact, LAB_INQUIRY_TEXT, NAV, REPOSITORY_URL, u } from '../lib/site';
+const contact = await getContact();
+---
+<footer class="lab-footer">
+  <div class="lab-footer-inner">
+    <div class="lab-footer-main">
+      <div class="lab-footer-identity">
+        <a class="lab-footer-logo" href={u('')} aria-label="IMLab home"><Logo /></a>
+        <p>Information Management Lab.</p>
+        <a href="https://www.ewha.ac.kr/">Ewha Womans University</a>
+      </div>
+      <nav aria-labelledby="footer-explore">
+        <h2 id="footer-explore">Explore</h2>
+        <ul class="lab-footer-sections">
+          {NAV.map(([key, label]) => <li><A href={`${key}/`}>{label}</A></li>)}
+        </ul>
+      </nav>
+      <div class="lab-footer-contact">
+        <h2>Contact</h2>
+        <p>{LAB_INQUIRY_TEXT}</p>
+        <a class="lab-footer-email" href={`mailto:${contact.email}`}>{contact.email}</a>
+      </div>
+    </div>
+    <div class="lab-footer-base">
+      <address>{contact.address} <a href={contact.map_url}>View on map</a></address>
+      <a href={REPOSITORY_URL}>Website on GitHub</a>
+    </div>
+  </div>
+</footer>

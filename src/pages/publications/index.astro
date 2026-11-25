@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/DesignedLayout.astro';
+import FilterTabs from '../../components/FilterTabs.astro';
+import ListingHeading from '../../components/ListingHeading.astro';
+import NoResults from '../../components/NoResults.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import { getList, LABELS } from '../../lib/site';
+
+const publications = await getList('publications');
+const categories = ['journal', 'conference', 'patent-software', 'thesis', 'magazine-book'];
+---
+<Layout title="Publications" section="publications">
+<ListingHeading title="Publications" intro="Explore our publications, intellectual property, and scholarly work" />
+<div class="page-content wrap">
+  <section data-filter-list aria-label="Publications by type"><FilterTabs groups={[{ key: 'category', label: 'Type', options: categories.map((c) => [c, LABELS[c]]) }]} items={publications} /><PublicationList publications={publications} filtering /><NoResults /></section>
+</div>
+</Layout>

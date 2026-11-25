@@ -1,0 +1,5 @@
+---
+interface Props { items: string[]; class?: string }
+const { items, class: extra } = Astro.props;
+---
+<ul class:list={['content-list', extra]}>{items.filter((item) => item.trim()).map((item) => <li>{item}</li>)}</ul>

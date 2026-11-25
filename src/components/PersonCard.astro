@@ -1,0 +1,9 @@
+---
+import A from './A.astro';
+import Portrait from './Portrait.astro';
+import { LAB_INQUIRY_TEXT, type Person } from '../lib/site';
+interface Props { person: Person; labEmail?: string }
+const { person, labEmail } = Astro.props;
+const rows = person.details.filter((item) => !(person.email && /^Email\s*:/i.test(item)));
+---
+<article class="person-card"><Portrait src={person.image} alt={person.name} class="portrait" /><div class="person-info"><h3><A href={`people/${person.id}/`}>{person.name}</A></h3><ul class="content-list">{rows.map((item) => <li>{item}</li>)}{person.email && <li class="person-email">Email: <A href={`mailto:${person.email}`}>{person.email}</A>{person.email === labEmail && <><br /><small>{LAB_INQUIRY_TEXT}</small></>}</li>}</ul></div></article>
