@@ -71,12 +71,10 @@ content:
       field: create
     view:
       primary: name
-      fields: [name, group, order]
       sort: [order, name]
       default:
         sort: order
         order: asc
-    operations:
       rename: false
       delete: false
     fields:
