@@ -245,10 +245,7 @@ content:
     type: file
     path: src/content/news.yaml
     format: yaml
-    list:
-      collapsible:
-        collapsed: true
-        summary: "{date} - {category} - {text}"
+    list: true
     operations:
       delete: false
     fields:
