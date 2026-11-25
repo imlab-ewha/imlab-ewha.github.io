@@ -15,10 +15,52 @@ settings:
   content:
     merge: true
 
+
 # 3. 콘텐츠 관리
 content:
 
-  # PEOPLE
+  # 1. RESEARCH AREAS
+  - name: research
+    label: Research Areas
+    type: file
+    path: src/content/research.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+        required: true
+      - name: topics
+        label: Research Topics
+        type: string
+        list: true
+      - name: illustration
+        label: Illustration Path
+        type: string
+        required: true
+      - name: illustration_alt
+        label: Image Description
+        type: string
+      - name: match_pattern
+        label: Matching Regex
+        type: string
+
+  # 2. PEOPLE
   - name: people
     label: People
     type: collection
@@ -29,6 +71,11 @@ content:
       field: create
     view:
       primary: name
+      fields: [name, group, order]
+      sort: [order, name]
+      default:
+        sort: order
+        order: asc
     operations:
       rename: false
       delete: false
@@ -101,42 +148,7 @@ content:
                   - name: url
                     type: string
 
-  # NEWS
-  - name: news
-    label: News & Media
-    type: file
-    path: src/content/news.yaml
-    format: yaml
-    list: true
-    operations:
-      delete: false
-    fields:
-      - name: id
-        label: ID
-        type: string
-        required: true
-      - name: date
-        label: Date (YYYY-MM)
-        type: string
-        required: true
-      - name: category
-        label: Category
-        type: select
-        required: true
-        options:
-          values:
-            - awards
-            - papers
-            - updates
-      - name: original_category
-        label: Original Category
-        type: string
-      - name: text
-        label: News Content
-        type: text
-        required: true
-
-  # PUBLICATIONS
+  # 3. PUBLICATIONS
   - name: publications
     label: Publications
     type: file
@@ -190,7 +202,7 @@ content:
             label: URL
             type: string
 
-  # PROJECTS
+  # 4. PROJECTS
   - name: projects
     label: Projects
     type: file
@@ -229,13 +241,16 @@ content:
           - name: url
             type: string
 
-  # RESEARCH
-  - name: research
-    label: Research Areas
+  # 5. NEWS & MEDIA
+  - name: news
+    label: News & Media
     type: file
-    path: src/content/research.yaml
+    path: src/content/news.yaml
     format: yaml
-    list: true
+    list:
+      collapsible:
+        collapsed: true
+        summary: "{date} - {category} - {text}"
     operations:
       delete: false
     fields:
@@ -243,34 +258,28 @@ content:
         label: ID
         type: string
         required: true
-      - name: title
-        label: Title
+      - name: date
+        label: Date (YYYY-MM)
         type: string
         required: true
-      - name: summary
-        label: Summary
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - awards
+            - papers
+            - updates
+      - name: original_category
+        label: Original Category
+        type: string
+      - name: text
+        label: News Content
         type: text
         required: true
-      - name: description
-        label: Description
-        type: text
-        required: true
-      - name: topics
-        label: Research Topics
-        type: string
-        list: true
-      - name: illustration
-        label: Illustration Path
-        type: string
-        required: true
-      - name: illustration_alt
-        label: Image Description
-        type: string
-      - name: match_pattern
-        label: Matching Regex
-        type: string
 
-  # COURSES
+  # 6. COURSES
   - name: courses
     label: Courses
     type: file
@@ -305,7 +314,7 @@ content:
         type: string
         list: true
 
-  # SUPPORTERS
+  # 7. SUPPORTERS
   - name: supporters
     label: Supporters
     type: file
@@ -329,7 +338,7 @@ content:
         options:
           media: images
 
-  # SITE SETTINGS
+  # 8. SITE SETTINGS
   - name: site-settings
     label: Site Settings
     type: file
@@ -351,3 +360,4 @@ content:
           - name: map_url
             label: Map URL
             type: string
+
