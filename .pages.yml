@@ -1,0 +1,353 @@
+
+# IMLab - Pages CMS Configuration
+
+# 1. 이미지 관리
+media:
+  - name: images
+    label: Images
+    input: public/assets/images
+    output: /assets/images
+    categories: [image]
+    rename: false
+
+# 2. 저장 동작
+settings:
+  content:
+    merge: true
+
+# 3. 콘텐츠 관리
+content:
+
+  # PEOPLE
+  - name: people
+    label: People
+    type: collection
+    path: src/content/people
+    format: yaml
+    filename:
+      template: "{primary}.yaml"
+      field: create
+    view:
+      primary: name
+    operations:
+      rename: false
+      delete: false
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: group
+        label: Group
+        type: select
+        required: true
+        options:
+          values:
+            - director
+            - graduate
+            - alumni-graduate
+            - alumni-undergraduate
+      - name: order
+        label: Display Order
+        type: number
+      - name: image
+        label: Profile Image
+        type: image
+        options:
+          media: images
+      - name: email
+        label: Email
+        type: string
+      - name: details
+        label: Details
+        type: string
+        list: true
+      - name: profile
+        label: Profile Sections
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Section Title
+            type: string
+          - name: items
+            label: Items
+            type: string
+            list: true
+          - name: links
+            label: Links
+            type: object
+            list: true
+            fields:
+              - name: text
+                type: string
+              - name: url
+                type: string
+          - name: item_links
+            label: Item Links
+            type: object
+            list: true
+            fields:
+              - name: links
+                label: Links
+                type: object
+                list: true
+                fields:
+                  - name: text
+                    type: string
+                  - name: url
+                    type: string
+
+  # NEWS
+  - name: news
+    label: News & Media
+    type: file
+    path: src/content/news.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: date
+        label: Date (YYYY-MM)
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - awards
+            - papers
+            - updates
+      - name: original_category
+        label: Original Category
+        type: string
+      - name: text
+        label: News Content
+        type: text
+        required: true
+
+  # PUBLICATIONS
+  - name: publications
+    label: Publications
+    type: file
+    path: src/content/publications.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - journal
+            - conference
+            - patent-software
+            - thesis
+            - magazine-book
+      - name: status
+        label: Status
+        type: select
+        required: true
+        options:
+          values:
+            - published
+            - accepted
+            - under-review
+            - in-preparation
+      - name: year
+        label: Year
+        type: number
+      - name: text
+        label: Citation / Description
+        type: text
+        required: true
+      - name: links
+        label: Publication Links
+        type: object
+        list: true
+        fields:
+          - name: text
+            label: Link Label
+            type: string
+          - name: url
+            label: URL
+            type: string
+
+  # PROJECTS
+  - name: projects
+    label: Projects
+    type: file
+    path: src/content/projects.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: status
+        label: Status
+        type: select
+        required: true
+        options:
+          values:
+            - current
+            - past
+      - name: affiliation
+        label: Affiliation
+        type: string
+      - name: text
+        label: Project Description
+        type: text
+        required: true
+      - name: links
+        label: Project Links
+        type: object
+        list: true
+        fields:
+          - name: text
+            type: string
+          - name: url
+            type: string
+
+  # RESEARCH
+  - name: research
+    label: Research Areas
+    type: file
+    path: src/content/research.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+        required: true
+      - name: topics
+        label: Research Topics
+        type: string
+        list: true
+      - name: illustration
+        label: Illustration Path
+        type: string
+        required: true
+      - name: illustration_alt
+        label: Image Description
+        type: string
+      - name: match_pattern
+        label: Matching Regex
+        type: string
+
+  # COURSES
+  - name: courses
+    label: Courses
+    type: file
+    path: src/content/courses.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: Semester ID
+        type: string
+        required: true
+      - name: label
+        label: Semester Label
+        type: string
+        required: true
+      - name: year
+        label: Year
+        type: number
+        required: true
+      - name: season
+        label: Season
+        type: select
+        required: true
+        options:
+          values:
+            - spring
+            - fall
+      - name: items
+        label: Courses
+        type: string
+        list: true
+
+  # SUPPORTERS
+  - name: supporters
+    label: Supporters
+    type: file
+    path: src/content/supporters.yaml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+      - name: name
+        label: Organization
+        type: string
+        required: true
+      - name: image
+        label: Logo
+        type: image
+        options:
+          media: images
+
+  # SITE SETTINGS
+  - name: site-settings
+    label: Site Settings
+    type: file
+    path: src/content/settings.yaml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: contact
+        label: Contact Information
+        type: object
+        fields:
+          - name: email
+            label: Email
+            type: string
+          - name: address
+            label: Address
+            type: string
+          - name: map_url
+            label: Map URL
+            type: string
